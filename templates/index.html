@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级图片去重工具</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1><i class="fas fa-images"></i> 高级图片去重工具</h1>
+            <p class="subtitle">基于感知哈希算法的智能图片去重系统</p>
+        </header>
+
+        <!-- 控制面板 -->
+        <div class="control-panel">
+            <div class="scan-section">
+                <h2><i class="fas fa-folder-open"></i> 扫描设置</h2>
+                <div class="form-group">
+                    <label for="targetDir">目标目录:</label>
+                    <div class="directory-input-group">
+                        <input type="text" id="targetDir" placeholder="点击浏览按钮选择目录或直接输入路径">
+                        <button class="btn btn-secondary" onclick="browseDirectory()">
+                            <i class="fas fa-folder"></i> 浏览目录
+                        </button>
+                    </div>
+                    <div class="directory-hint">
+                        <small><i class="fas fa-info-circle"></i> 支持选择本地目录进行图片去重分析</small>
+                    </div>
+                </div>
+                
+                <div class="settings-grid">
+                    <div class="form-group">
+                        <label for="similarityThreshold">相似度阈值:</label>
+                        <input type="range" id="similarityThreshold" min="0.5" max="1.0" step="0.01" value="0.75">
+                        <span id="thresholdValue">0.75</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hashSize">哈希大小:</label>
+                        <select id="hashSize">
+                            <option value="8">8x8 (快速)</option>
+                            <option value="16">16x16 (标准)</option>
+                            <option value="32">32x32 (精确)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="recursiveScan" checked>
+                            递归扫描子目录
+                        </label>
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary" onclick="startScan()" id="scanBtn">
+                    <i class="fas fa-search"></i> 开始扫描
+                </button>
+            </div>
+        </div>
+
+        <!-- 进度显示 -->
+        <div class="progress-section" id="progressSection" style="display: none;">
+            <h3><i class="fas fa-spinner fa-spin"></i> 扫描进度</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText">准备开始...</div>
+        </div>
+
+        <!-- 结果展示 -->
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <div class="results-header">
+                <h2><i class="fas fa-chart-bar"></i> 扫描结果</h2>
+                <div class="summary-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="totalGroups">0</span>
+                        <span class="stat-label">相似组</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="totalImages">0</span>
+                        <span class="stat-label">图片总数</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="spaceSavings">0 MB</span>
+                        <span class="stat-label">可释放空间</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 组列表 -->
+            <div class="groups-list" id="groupsList">
+                <!-- 组卡片将通过JavaScript动态生成 -->
+            </div>
+
+            <!-- 批量操作 -->
+            <div class="batch-actions">
+                <div class="selection-info">
+                    <span id="selectedCount">已选择 0 个组</span>
+                    <button class="btn btn-outline" onclick="selectAllGroups()">全选</button>
+                    <button class="btn btn-outline" onclick="clearSelection()">清空</button>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-danger" onclick="deleteSelectedGroups()" id="deleteSelectedBtn">
+                        <i class="fas fa-trash"></i> 删除选中组
+                    </button>
+                    <button class="btn btn-warning" onclick="deleteAllGroups()" id="deleteAllBtn">
+                        <i class="fas fa-broom"></i> 删除所有重复
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 组详情模态框 -->
+        <div class="modal" id="groupModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>相似图片组详情</h3>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- 内容将通过JavaScript动态填充 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 消息提示 -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

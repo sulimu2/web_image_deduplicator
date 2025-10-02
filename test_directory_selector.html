@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目录选择器测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            line-height: 1.6;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>目录选择器功能测试</h1>
+    
+    <div class="test-section">
+        <h2>测试1: 基本目录选择</h2>
+        <button onclick="testDirectorySelector()">测试目录选择器</button>
+        <div id="result1"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试2: 路径验证</h2>
+        <button onclick="testPathValidation()">测试路径验证</button>
+        <div id="result2"></div>
+    </div>
+
+    <script>
+        function testDirectorySelector() {
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+            fileInput.webkitdirectory = true;
+            fileInput.multiple = true;
+            
+            fileInput.addEventListener('change', (event) => {
+                if (event.target.files.length > 0) {
+                    const firstFile = event.target.files[0];
+                    const directoryPath = firstFile.webkitRelativePath.split('/')[0];
+                    
+                    document.getElementById('result1').innerHTML = `
+                        <h3>选择结果:</h3>
+                        <p><strong>目录路径:</strong> ${directoryPath}</p>
+                        <p><strong>文件数量:</strong> ${event.target.files.length}</p>
+                        <p><strong>第一个文件:</strong> ${firstFile.name}</p>
+                        <p><strong>相对路径:</strong> ${firstFile.webkitRelativePath}</p>
+                    `;
+                }
+            });
+            
+            fileInput.click();
+        }
+
+        function testPathValidation() {
+            // 模拟后端路径验证
+            const testPaths = [
+                './stickers_output_20251002_234900',
+                'stickers_output_20251002_234900',
+                '/Volumes/T1/VSCODE-Project/douyin333/stickers_output_20251002_234900'
+            ];
+            
+            let results = '<h3>路径验证结果:</h3>';
+            
+            testPaths.forEach(path => {
+                const isRelative = !path.startsWith('/');
+                const exists = true; // 假设路径存在
+                
+                results += `
+                    <p><strong>路径:</strong> ${path}</p>
+                    <p>相对路径: ${isRelative ? '是' : '否'}</p>
+                    <p>路径存在: ${exists ? '是' : '否'}</p>
+                    <hr>
+                `;
+            });
+            
+            document.getElementById('result2').innerHTML = results;
+        }
+    </script>
+</body>
+</html>
