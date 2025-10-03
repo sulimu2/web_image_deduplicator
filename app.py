@@ -68,6 +68,9 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # 100MB
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 
+# 获取贴纸输出路径
+STICKERS_OUTPUT_PATH = os.environ.get('STICKERS_OUTPUT_PATH', '../stickers_output_20251002_234900')
+
 # 创建必要的目录
 Path(app.config['UPLOAD_FOLDER']).mkdir(exist_ok=True)
 
@@ -199,6 +202,10 @@ def api_scan():
             # 如果是相对路径，相对于当前工作目录的父目录
             # 因为用户选择的目录可能在web_image_deduplicator的父目录中
             target_path = Path.cwd().parent / target_path
+        
+        # 特殊处理：如果路径是stickers_output，使用环境变量中的路径
+        if 'stickers_output' in str(target_path):
+            target_path = Path(STICKERS_OUTPUT_PATH)
         
         # 检查目录是否存在
         if not target_path.exists():

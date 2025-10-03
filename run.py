@@ -5,7 +5,11 @@ Docker启动脚本
 
 import os
 import sys
-from web_image_deduplicator.app import app
+
+# 添加当前目录到Python路径
+sys.path.insert(0, '/app')
+
+from app import app
 
 if __name__ == '__main__':
     # 获取端口，默认为5010

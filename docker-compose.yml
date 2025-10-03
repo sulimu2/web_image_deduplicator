@@ -9,9 +9,11 @@ services:
       - ./uploads:/app/uploads
       - ./logs:/app/logs
       - ./data:/app/data
+      - ../stickers_output_20251002_234900:/app/stickers_output
     environment:
       - FLASK_ENV=production
       - PYTHONPATH=/app
+      - STICKERS_OUTPUT_PATH=/app/stickers_output
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5010/health"]

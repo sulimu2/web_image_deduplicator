@@ -15,10 +15,14 @@ COPY . .
 # 创建必要的目录
 RUN mkdir -p uploads static/uploads logs
 
+# 设置Python路径
+ENV PYTHONPATH=/app
+
 # 设置环境变量
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=production
 ENV PYTHONPATH=/app
+ENV PYTHONPATH=/app:$PYTHONPATH
 
 # 暴露端口
 EXPOSE 5010
