@@ -1,0 +1,4405 @@
+{
+  "summary": {
+    "target_ip": "抖音",
+    "target_ip_count": 107,
+    "unrelated_count": 43,
+    "total_images": 150,
+    "similarity_threshold": 0.7,
+    "processing_time": "18.5秒",
+    "scan_time": "2025-10-03T14:36:18.619557"
+  },
+  "detailed_results": {
+    "抖音": {
+      "count": 107,
+      "average_confidence": 0.65,
+      "images": [
+        {
+          "file_path": "/demo/images/抖音/image_0000.jpg",
+          "file_name": "抖音_image_0000.jpg",
+          "file_size": 224566,
+          "image_size": [
+            986,
+            347
+          ],
+          "confidence": 0.8,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0001.jpg",
+          "file_name": "抖音_image_0001.jpg",
+          "file_size": 217163,
+          "image_size": [
+            924,
+            691
+          ],
+          "confidence": 0.91,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0002.jpg",
+          "file_name": "抖音_image_0002.jpg",
+          "file_size": 78901,
+          "image_size": [
+            505,
+            605
+          ],
+          "confidence": 0.653,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0003.jpg",
+          "file_name": "抖音_image_0003.jpg",
+          "file_size": 272129,
+          "image_size": [
+            608,
+            713
+          ],
+          "confidence": 0.613,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "边框",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0004.jpg",
+          "file_name": "抖音_image_0004.jpg",
+          "file_size": 448733,
+          "image_size": [
+            1136,
+            737
+          ],
+          "confidence": 0.914,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0005.jpg",
+          "file_name": "抖音_image_0005.jpg",
+          "file_size": 74118,
+          "image_size": [
+            582,
+            584
+          ],
+          "confidence": 0.818,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0006.jpg",
+          "file_name": "抖音_image_0006.jpg",
+          "file_size": 213473,
+          "image_size": [
+            785,
+            524
+          ],
+          "confidence": 0.909,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            },
+            {
+              "label": "边框",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0007.jpg",
+          "file_name": "抖音_image_0007.jpg",
+          "file_size": 182695,
+          "image_size": [
+            645,
+            412
+          ],
+          "confidence": 0.731,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0008.jpg",
+          "file_name": "抖音_image_0008.jpg",
+          "file_size": 231533,
+          "image_size": [
+            740,
+            520
+          ],
+          "confidence": 0.701,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0009.jpg",
+          "file_name": "抖音_image_0009.jpg",
+          "file_size": 240436,
+          "image_size": [
+            934,
+            788
+          ],
+          "confidence": 0.87,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "边框",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0010.jpg",
+          "file_name": "抖音_image_0010.jpg",
+          "file_size": 65893,
+          "image_size": [
+            973,
+            613
+          ],
+          "confidence": 0.785,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0011.jpg",
+          "file_name": "抖音_image_0011.jpg",
+          "file_size": 169271,
+          "image_size": [
+            675,
+            426
+          ],
+          "confidence": 0.662,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0012.jpg",
+          "file_name": "抖音_image_0012.jpg",
+          "file_size": 311522,
+          "image_size": [
+            969,
+            388
+          ],
+          "confidence": 0.786,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0013.jpg",
+          "file_name": "抖音_image_0013.jpg",
+          "file_size": 368026,
+          "image_size": [
+            1108,
+            655
+          ],
+          "confidence": 0.934,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.55
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0014.jpg",
+          "file_name": "抖音_image_0014.jpg",
+          "file_size": 201519,
+          "image_size": [
+            732,
+            791
+          ],
+          "confidence": 0.696,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0015.jpg",
+          "file_name": "抖音_image_0015.jpg",
+          "file_size": 171523,
+          "image_size": [
+            1040,
+            687
+          ],
+          "confidence": 0.607,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0016.jpg",
+          "file_name": "抖音_image_0016.jpg",
+          "file_size": 499781,
+          "image_size": [
+            1157,
+            678
+          ],
+          "confidence": 0.629,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0017.jpg",
+          "file_name": "抖音_image_0017.jpg",
+          "file_size": 429821,
+          "image_size": [
+            430,
+            603
+          ],
+          "confidence": 0.664,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "特效",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0018.jpg",
+          "file_name": "抖音_image_0018.jpg",
+          "file_size": 199777,
+          "image_size": [
+            1131,
+            787
+          ],
+          "confidence": 0.803,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0019.jpg",
+          "file_name": "抖音_image_0019.jpg",
+          "file_size": 164835,
+          "image_size": [
+            519,
+            508
+          ],
+          "confidence": 0.794,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.49
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0020.jpg",
+          "file_name": "抖音_image_0020.jpg",
+          "file_size": 374476,
+          "image_size": [
+            462,
+            476
+          ],
+          "confidence": 0.697,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0021.jpg",
+          "file_name": "抖音_image_0021.jpg",
+          "file_size": 429947,
+          "image_size": [
+            525,
+            459
+          ],
+          "confidence": 0.771,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.44
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0022.jpg",
+          "file_name": "抖音_image_0022.jpg",
+          "file_size": 478583,
+          "image_size": [
+            891,
+            497
+          ],
+          "confidence": 0.739,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0023.jpg",
+          "file_name": "抖音_image_0023.jpg",
+          "file_size": 349276,
+          "image_size": [
+            860,
+            364
+          ],
+          "confidence": 0.676,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0024.jpg",
+          "file_name": "抖音_image_0024.jpg",
+          "file_size": 231768,
+          "image_size": [
+            621,
+            665
+          ],
+          "confidence": 0.652,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0025.jpg",
+          "file_name": "抖音_image_0025.jpg",
+          "file_size": 294704,
+          "image_size": [
+            957,
+            789
+          ],
+          "confidence": 0.813,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            },
+            {
+              "label": "特效",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0026.jpg",
+          "file_name": "抖音_image_0026.jpg",
+          "file_size": 158114,
+          "image_size": [
+            633,
+            316
+          ],
+          "confidence": 0.71,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0027.jpg",
+          "file_name": "抖音_image_0027.jpg",
+          "file_size": 453568,
+          "image_size": [
+            935,
+            383
+          ],
+          "confidence": 0.821,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0028.jpg",
+          "file_name": "抖音_image_0028.jpg",
+          "file_size": 461305,
+          "image_size": [
+            493,
+            477
+          ],
+          "confidence": 0.913,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0029.jpg",
+          "file_name": "抖音_image_0029.jpg",
+          "file_size": 465108,
+          "image_size": [
+            507,
+            541
+          ],
+          "confidence": 0.652,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0030.jpg",
+          "file_name": "抖音_image_0030.jpg",
+          "file_size": 479306,
+          "image_size": [
+            1005,
+            510
+          ],
+          "confidence": 0.631,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0031.jpg",
+          "file_name": "抖音_image_0031.jpg",
+          "file_size": 86118,
+          "image_size": [
+            925,
+            361
+          ],
+          "confidence": 0.749,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0032.jpg",
+          "file_name": "抖音_image_0032.jpg",
+          "file_size": 99896,
+          "image_size": [
+            706,
+            403
+          ],
+          "confidence": 0.731,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0033.jpg",
+          "file_name": "抖音_image_0033.jpg",
+          "file_size": 132986,
+          "image_size": [
+            1020,
+            337
+          ],
+          "confidence": 0.763,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0034.jpg",
+          "file_name": "抖音_image_0034.jpg",
+          "file_size": 247436,
+          "image_size": [
+            1157,
+            771
+          ],
+          "confidence": 0.897,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0035.jpg",
+          "file_name": "抖音_image_0035.jpg",
+          "file_size": 417652,
+          "image_size": [
+            688,
+            383
+          ],
+          "confidence": 0.844,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0036.jpg",
+          "file_name": "抖音_image_0036.jpg",
+          "file_size": 147136,
+          "image_size": [
+            428,
+            738
+          ],
+          "confidence": 0.692,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0037.jpg",
+          "file_name": "抖音_image_0037.jpg",
+          "file_size": 127445,
+          "image_size": [
+            1127,
+            600
+          ],
+          "confidence": 0.768,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.4
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0038.jpg",
+          "file_name": "抖音_image_0038.jpg",
+          "file_size": 338220,
+          "image_size": [
+            800,
+            451
+          ],
+          "confidence": 0.745,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0039.jpg",
+          "file_name": "抖音_image_0039.jpg",
+          "file_size": 363622,
+          "image_size": [
+            664,
+            412
+          ],
+          "confidence": 0.706,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0040.jpg",
+          "file_name": "抖音_image_0040.jpg",
+          "file_size": 356923,
+          "image_size": [
+            701,
+            553
+          ],
+          "confidence": 0.753,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.63
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0041.jpg",
+          "file_name": "抖音_image_0041.jpg",
+          "file_size": 398745,
+          "image_size": [
+            854,
+            791
+          ],
+          "confidence": 0.602,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0042.jpg",
+          "file_name": "抖音_image_0042.jpg",
+          "file_size": 103720,
+          "image_size": [
+            983,
+            781
+          ],
+          "confidence": 0.929,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "背景",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0043.jpg",
+          "file_name": "抖音_image_0043.jpg",
+          "file_size": 200224,
+          "image_size": [
+            415,
+            540
+          ],
+          "confidence": 0.698,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0044.jpg",
+          "file_name": "抖音_image_0044.jpg",
+          "file_size": 398079,
+          "image_size": [
+            627,
+            304
+          ],
+          "confidence": 0.649,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0045.jpg",
+          "file_name": "抖音_image_0045.jpg",
+          "file_size": 438481,
+          "image_size": [
+            651,
+            483
+          ],
+          "confidence": 0.68,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0046.jpg",
+          "file_name": "抖音_image_0046.jpg",
+          "file_size": 338530,
+          "image_size": [
+            728,
+            408
+          ],
+          "confidence": 0.823,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            },
+            {
+              "label": "特效",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0047.jpg",
+          "file_name": "抖音_image_0047.jpg",
+          "file_size": 447764,
+          "image_size": [
+            787,
+            493
+          ],
+          "confidence": 0.882,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0048.jpg",
+          "file_name": "抖音_image_0048.jpg",
+          "file_size": 69095,
+          "image_size": [
+            1157,
+            556
+          ],
+          "confidence": 0.777,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.46
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0049.jpg",
+          "file_name": "抖音_image_0049.jpg",
+          "file_size": 421569,
+          "image_size": [
+            1106,
+            695
+          ],
+          "confidence": 0.806,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0050.jpg",
+          "file_name": "抖音_image_0050.jpg",
+          "file_size": 414489,
+          "image_size": [
+            777,
+            735
+          ],
+          "confidence": 0.729,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0051.jpg",
+          "file_name": "抖音_image_0051.jpg",
+          "file_size": 252519,
+          "image_size": [
+            1026,
+            600
+          ],
+          "confidence": 0.804,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.55
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0052.jpg",
+          "file_name": "抖音_image_0052.jpg",
+          "file_size": 449870,
+          "image_size": [
+            800,
+            318
+          ],
+          "confidence": 0.918,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0053.jpg",
+          "file_name": "抖音_image_0053.jpg",
+          "file_size": 264320,
+          "image_size": [
+            696,
+            302
+          ],
+          "confidence": 0.944,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0054.jpg",
+          "file_name": "抖音_image_0054.jpg",
+          "file_size": 119480,
+          "image_size": [
+            957,
+            555
+          ],
+          "confidence": 0.699,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.6
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0055.jpg",
+          "file_name": "抖音_image_0055.jpg",
+          "file_size": 380750,
+          "image_size": [
+            1143,
+            409
+          ],
+          "confidence": 0.657,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0056.jpg",
+          "file_name": "抖音_image_0056.jpg",
+          "file_size": 211738,
+          "image_size": [
+            506,
+            561
+          ],
+          "confidence": 0.83,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0057.jpg",
+          "file_name": "抖音_image_0057.jpg",
+          "file_size": 321045,
+          "image_size": [
+            905,
+            629
+          ],
+          "confidence": 0.786,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0058.jpg",
+          "file_name": "抖音_image_0058.jpg",
+          "file_size": 358964,
+          "image_size": [
+            677,
+            486
+          ],
+          "confidence": 0.823,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0059.jpg",
+          "file_name": "抖音_image_0059.jpg",
+          "file_size": 151992,
+          "image_size": [
+            735,
+            659
+          ],
+          "confidence": 0.879,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.55
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0060.jpg",
+          "file_name": "抖音_image_0060.jpg",
+          "file_size": 78436,
+          "image_size": [
+            600,
+            538
+          ],
+          "confidence": 0.679,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0061.jpg",
+          "file_name": "抖音_image_0061.jpg",
+          "file_size": 147467,
+          "image_size": [
+            1043,
+            479
+          ],
+          "confidence": 0.736,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0062.jpg",
+          "file_name": "抖音_image_0062.jpg",
+          "file_size": 313280,
+          "image_size": [
+            718,
+            604
+          ],
+          "confidence": 0.878,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0063.jpg",
+          "file_name": "抖音_image_0063.jpg",
+          "file_size": 118365,
+          "image_size": [
+            661,
+            663
+          ],
+          "confidence": 0.764,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.55
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0064.jpg",
+          "file_name": "抖音_image_0064.jpg",
+          "file_size": 389104,
+          "image_size": [
+            935,
+            605
+          ],
+          "confidence": 0.888,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.5
+            },
+            {
+              "label": "特效",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0065.jpg",
+          "file_name": "抖音_image_0065.jpg",
+          "file_size": 452021,
+          "image_size": [
+            531,
+            782
+          ],
+          "confidence": 0.685,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.44
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0066.jpg",
+          "file_name": "抖音_image_0066.jpg",
+          "file_size": 171256,
+          "image_size": [
+            778,
+            445
+          ],
+          "confidence": 0.909,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            },
+            {
+              "label": "背景",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0067.jpg",
+          "file_name": "抖音_image_0067.jpg",
+          "file_size": 225259,
+          "image_size": [
+            1065,
+            571
+          ],
+          "confidence": 0.624,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0068.jpg",
+          "file_name": "抖音_image_0068.jpg",
+          "file_size": 190111,
+          "image_size": [
+            1018,
+            638
+          ],
+          "confidence": 0.928,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0069.jpg",
+          "file_name": "抖音_image_0069.jpg",
+          "file_size": 141137,
+          "image_size": [
+            702,
+            514
+          ],
+          "confidence": 0.891,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            },
+            {
+              "label": "背景",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0070.jpg",
+          "file_name": "抖音_image_0070.jpg",
+          "file_size": 242621,
+          "image_size": [
+            1150,
+            742
+          ],
+          "confidence": 0.679,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0071.jpg",
+          "file_name": "抖音_image_0071.jpg",
+          "file_size": 125375,
+          "image_size": [
+            428,
+            671
+          ],
+          "confidence": 0.675,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0072.jpg",
+          "file_name": "抖音_image_0072.jpg",
+          "file_size": 378533,
+          "image_size": [
+            741,
+            763
+          ],
+          "confidence": 0.887,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0073.jpg",
+          "file_name": "抖音_image_0073.jpg",
+          "file_size": 391106,
+          "image_size": [
+            1125,
+            432
+          ],
+          "confidence": 0.78,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0074.jpg",
+          "file_name": "抖音_image_0074.jpg",
+          "file_size": 323585,
+          "image_size": [
+            508,
+            551
+          ],
+          "confidence": 0.876,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "背景",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0075.jpg",
+          "file_name": "抖音_image_0075.jpg",
+          "file_size": 284337,
+          "image_size": [
+            1003,
+            789
+          ],
+          "confidence": 0.716,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0076.jpg",
+          "file_name": "抖音_image_0076.jpg",
+          "file_size": 434611,
+          "image_size": [
+            886,
+            655
+          ],
+          "confidence": 0.687,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            },
+            {
+              "label": "特效",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0077.jpg",
+          "file_name": "抖音_image_0077.jpg",
+          "file_size": 279954,
+          "image_size": [
+            1099,
+            742
+          ],
+          "confidence": 0.794,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0078.jpg",
+          "file_name": "抖音_image_0078.jpg",
+          "file_size": 481170,
+          "image_size": [
+            846,
+            697
+          ],
+          "confidence": 0.68,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0079.jpg",
+          "file_name": "抖音_image_0079.jpg",
+          "file_size": 171442,
+          "image_size": [
+            546,
+            426
+          ],
+          "confidence": 0.791,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            },
+            {
+              "label": "边框",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0080.jpg",
+          "file_name": "抖音_image_0080.jpg",
+          "file_size": 357438,
+          "image_size": [
+            665,
+            608
+          ],
+          "confidence": 0.654,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0081.jpg",
+          "file_name": "抖音_image_0081.jpg",
+          "file_size": 401249,
+          "image_size": [
+            917,
+            586
+          ],
+          "confidence": 0.762,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.58
+            },
+            {
+              "label": "背景",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0082.jpg",
+          "file_name": "抖音_image_0082.jpg",
+          "file_size": 88059,
+          "image_size": [
+            843,
+            748
+          ],
+          "confidence": 0.62,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0083.jpg",
+          "file_name": "抖音_image_0083.jpg",
+          "file_size": 398352,
+          "image_size": [
+            953,
+            790
+          ],
+          "confidence": 0.632,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0084.jpg",
+          "file_name": "抖音_image_0084.jpg",
+          "file_size": 312043,
+          "image_size": [
+            743,
+            321
+          ],
+          "confidence": 0.607,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0085.jpg",
+          "file_name": "抖音_image_0085.jpg",
+          "file_size": 141270,
+          "image_size": [
+            415,
+            399
+          ],
+          "confidence": 0.624,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0086.jpg",
+          "file_name": "抖音_image_0086.jpg",
+          "file_size": 428769,
+          "image_size": [
+            774,
+            462
+          ],
+          "confidence": 0.893,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0087.jpg",
+          "file_name": "抖音_image_0087.jpg",
+          "file_size": 103420,
+          "image_size": [
+            587,
+            723
+          ],
+          "confidence": 0.895,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0088.jpg",
+          "file_name": "抖音_image_0088.jpg",
+          "file_size": 448203,
+          "image_size": [
+            601,
+            371
+          ],
+          "confidence": 0.861,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0089.jpg",
+          "file_name": "抖音_image_0089.jpg",
+          "file_size": 137102,
+          "image_size": [
+            596,
+            358
+          ],
+          "confidence": 0.706,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0090.jpg",
+          "file_name": "抖音_image_0090.jpg",
+          "file_size": 162691,
+          "image_size": [
+            642,
+            598
+          ],
+          "confidence": 0.649,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0091.jpg",
+          "file_name": "抖音_image_0091.jpg",
+          "file_size": 299774,
+          "image_size": [
+            534,
+            377
+          ],
+          "confidence": 0.887,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0092.jpg",
+          "file_name": "抖音_image_0092.jpg",
+          "file_size": 133178,
+          "image_size": [
+            489,
+            545
+          ],
+          "confidence": 0.919,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0093.jpg",
+          "file_name": "抖音_image_0093.jpg",
+          "file_size": 413917,
+          "image_size": [
+            955,
+            756
+          ],
+          "confidence": 0.681,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0094.jpg",
+          "file_name": "抖音_image_0094.jpg",
+          "file_size": 360183,
+          "image_size": [
+            517,
+            713
+          ],
+          "confidence": 0.941,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0095.jpg",
+          "file_name": "抖音_image_0095.jpg",
+          "file_size": 493448,
+          "image_size": [
+            848,
+            552
+          ],
+          "confidence": 0.668,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0096.jpg",
+          "file_name": "抖音_image_0096.jpg",
+          "file_size": 171537,
+          "image_size": [
+            915,
+            575
+          ],
+          "confidence": 0.624,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0097.jpg",
+          "file_name": "抖音_image_0097.jpg",
+          "file_size": 311176,
+          "image_size": [
+            754,
+            715
+          ],
+          "confidence": 0.786,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0098.jpg",
+          "file_name": "抖音_image_0098.jpg",
+          "file_size": 203361,
+          "image_size": [
+            521,
+            738
+          ],
+          "confidence": 0.724,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0099.jpg",
+          "file_name": "抖音_image_0099.jpg",
+          "file_size": 408546,
+          "image_size": [
+            718,
+            540
+          ],
+          "confidence": 0.699,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0100.jpg",
+          "file_name": "抖音_image_0100.jpg",
+          "file_size": 74667,
+          "image_size": [
+            1182,
+            602
+          ],
+          "confidence": 0.889,
+          "best_match": "抖音挑战",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音挑战"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0101.jpg",
+          "file_name": "抖音_image_0101.jpg",
+          "file_size": 485199,
+          "image_size": [
+            901,
+            451
+          ],
+          "confidence": 0.788,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0102.jpg",
+          "file_name": "抖音_image_0102.jpg",
+          "file_size": 487977,
+          "image_size": [
+            1130,
+            702
+          ],
+          "confidence": 0.768,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0103.jpg",
+          "file_name": "抖音_image_0103.jpg",
+          "file_size": 299301,
+          "image_size": [
+            1082,
+            639
+          ],
+          "confidence": 0.864,
+          "best_match": "抖音特效",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            },
+            {
+              "label": "特效",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音特效"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0104.jpg",
+          "file_name": "抖音_image_0104.jpg",
+          "file_size": 286836,
+          "image_size": [
+            1094,
+            465
+          ],
+          "confidence": 0.703,
+          "best_match": "抖音表情包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音表情包"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0105.jpg",
+          "file_name": "抖音_image_0105.jpg",
+          "file_size": 174636,
+          "image_size": [
+            817,
+            638
+          ],
+          "confidence": 0.818,
+          "best_match": "抖音贴纸",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音贴纸"
+        },
+        {
+          "file_path": "/demo/images/抖音/image_0106.jpg",
+          "file_name": "抖音_image_0106.jpg",
+          "file_size": 323305,
+          "image_size": [
+            1146,
+            487
+          ],
+          "confidence": 0.65,
+          "best_match": "抖音Logo",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            },
+            {
+              "label": "边框",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到抖音特征: 抖音Logo"
+        }
+      ]
+    },
+    "unrelated": {
+      "count": 43,
+      "average_confidence": 0.32,
+      "images": [
+        {
+          "file_path": "/demo/images/unrelated/image_0000.jpg",
+          "file_name": "unrelated_image_0000.jpg",
+          "file_size": 140951,
+          "image_size": [
+            705,
+            582
+          ],
+          "confidence": 0.283,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0001.jpg",
+          "file_name": "unrelated_image_0001.jpg",
+          "file_size": 103698,
+          "image_size": [
+            552,
+            359
+          ],
+          "confidence": 0.177,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0002.jpg",
+          "file_name": "unrelated_image_0002.jpg",
+          "file_size": 431945,
+          "image_size": [
+            777,
+            621
+          ],
+          "confidence": 0.152,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0003.jpg",
+          "file_name": "unrelated_image_0003.jpg",
+          "file_size": 210015,
+          "image_size": [
+            464,
+            388
+          ],
+          "confidence": 0.241,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0004.jpg",
+          "file_name": "unrelated_image_0004.jpg",
+          "file_size": 450194,
+          "image_size": [
+            1048,
+            580
+          ],
+          "confidence": 0.155,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0005.jpg",
+          "file_name": "unrelated_image_0005.jpg",
+          "file_size": 473112,
+          "image_size": [
+            1172,
+            681
+          ],
+          "confidence": 0.207,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.76
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0006.jpg",
+          "file_name": "unrelated_image_0006.jpg",
+          "file_size": 339673,
+          "image_size": [
+            1140,
+            713
+          ],
+          "confidence": 0.156,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0007.jpg",
+          "file_name": "unrelated_image_0007.jpg",
+          "file_size": 126001,
+          "image_size": [
+            619,
+            699
+          ],
+          "confidence": 0.088,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0008.jpg",
+          "file_name": "unrelated_image_0008.jpg",
+          "file_size": 253013,
+          "image_size": [
+            778,
+            326
+          ],
+          "confidence": 0.283,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0009.jpg",
+          "file_name": "unrelated_image_0009.jpg",
+          "file_size": 415850,
+          "image_size": [
+            615,
+            680
+          ],
+          "confidence": 0.144,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0010.jpg",
+          "file_name": "unrelated_image_0010.jpg",
+          "file_size": 156031,
+          "image_size": [
+            599,
+            602
+          ],
+          "confidence": 0.12,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0011.jpg",
+          "file_name": "unrelated_image_0011.jpg",
+          "file_size": 450372,
+          "image_size": [
+            1128,
+            329
+          ],
+          "confidence": 0.15,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0012.jpg",
+          "file_name": "unrelated_image_0012.jpg",
+          "file_size": 63880,
+          "image_size": [
+            931,
+            721
+          ],
+          "confidence": 0.156,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0013.jpg",
+          "file_name": "unrelated_image_0013.jpg",
+          "file_size": 367771,
+          "image_size": [
+            925,
+            427
+          ],
+          "confidence": 0.215,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.76
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0014.jpg",
+          "file_name": "unrelated_image_0014.jpg",
+          "file_size": 65427,
+          "image_size": [
+            1122,
+            779
+          ],
+          "confidence": 0.084,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0015.jpg",
+          "file_name": "unrelated_image_0015.jpg",
+          "file_size": 332801,
+          "image_size": [
+            672,
+            744
+          ],
+          "confidence": 0.225,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0016.jpg",
+          "file_name": "unrelated_image_0016.jpg",
+          "file_size": 472631,
+          "image_size": [
+            584,
+            774
+          ],
+          "confidence": 0.291,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0017.jpg",
+          "file_name": "unrelated_image_0017.jpg",
+          "file_size": 246860,
+          "image_size": [
+            780,
+            430
+          ],
+          "confidence": 0.197,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0018.jpg",
+          "file_name": "unrelated_image_0018.jpg",
+          "file_size": 445385,
+          "image_size": [
+            710,
+            312
+          ],
+          "confidence": 0.119,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.76
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0019.jpg",
+          "file_name": "unrelated_image_0019.jpg",
+          "file_size": 263721,
+          "image_size": [
+            913,
+            395
+          ],
+          "confidence": 0.15,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0020.jpg",
+          "file_name": "unrelated_image_0020.jpg",
+          "file_size": 488439,
+          "image_size": [
+            798,
+            616
+          ],
+          "confidence": 0.055,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0021.jpg",
+          "file_name": "unrelated_image_0021.jpg",
+          "file_size": 76168,
+          "image_size": [
+            432,
+            569
+          ],
+          "confidence": 0.175,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0022.jpg",
+          "file_name": "unrelated_image_0022.jpg",
+          "file_size": 249698,
+          "image_size": [
+            1086,
+            696
+          ],
+          "confidence": 0.188,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0023.jpg",
+          "file_name": "unrelated_image_0023.jpg",
+          "file_size": 268157,
+          "image_size": [
+            561,
+            494
+          ],
+          "confidence": 0.055,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0024.jpg",
+          "file_name": "unrelated_image_0024.jpg",
+          "file_size": 492459,
+          "image_size": [
+            406,
+            666
+          ],
+          "confidence": 0.17,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0025.jpg",
+          "file_name": "unrelated_image_0025.jpg",
+          "file_size": 101587,
+          "image_size": [
+            412,
+            652
+          ],
+          "confidence": 0.218,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.73
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0026.jpg",
+          "file_name": "unrelated_image_0026.jpg",
+          "file_size": 359882,
+          "image_size": [
+            678,
+            518
+          ],
+          "confidence": 0.251,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0027.jpg",
+          "file_name": "unrelated_image_0027.jpg",
+          "file_size": 149045,
+          "image_size": [
+            754,
+            465
+          ],
+          "confidence": 0.169,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0028.jpg",
+          "file_name": "unrelated_image_0028.jpg",
+          "file_size": 217453,
+          "image_size": [
+            466,
+            722
+          ],
+          "confidence": 0.219,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0029.jpg",
+          "file_name": "unrelated_image_0029.jpg",
+          "file_size": 154214,
+          "image_size": [
+            667,
+            457
+          ],
+          "confidence": 0.102,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0030.jpg",
+          "file_name": "unrelated_image_0030.jpg",
+          "file_size": 431722,
+          "image_size": [
+            889,
+            402
+          ],
+          "confidence": 0.159,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.75
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0031.jpg",
+          "file_name": "unrelated_image_0031.jpg",
+          "file_size": 403990,
+          "image_size": [
+            609,
+            462
+          ],
+          "confidence": 0.058,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.7
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0032.jpg",
+          "file_name": "unrelated_image_0032.jpg",
+          "file_size": 147736,
+          "image_size": [
+            1056,
+            374
+          ],
+          "confidence": 0.289,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0033.jpg",
+          "file_name": "unrelated_image_0033.jpg",
+          "file_size": 497176,
+          "image_size": [
+            1110,
+            633
+          ],
+          "confidence": 0.146,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0034.jpg",
+          "file_name": "unrelated_image_0034.jpg",
+          "file_size": 148509,
+          "image_size": [
+            691,
+            379
+          ],
+          "confidence": 0.081,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0035.jpg",
+          "file_name": "unrelated_image_0035.jpg",
+          "file_size": 65851,
+          "image_size": [
+            743,
+            361
+          ],
+          "confidence": 0.09,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0036.jpg",
+          "file_name": "unrelated_image_0036.jpg",
+          "file_size": 202906,
+          "image_size": [
+            1190,
+            323
+          ],
+          "confidence": 0.221,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0037.jpg",
+          "file_name": "unrelated_image_0037.jpg",
+          "file_size": 476701,
+          "image_size": [
+            1032,
+            662
+          ],
+          "confidence": 0.068,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0038.jpg",
+          "file_name": "unrelated_image_0038.jpg",
+          "file_size": 413917,
+          "image_size": [
+            777,
+            435
+          ],
+          "confidence": 0.197,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0039.jpg",
+          "file_name": "unrelated_image_0039.jpg",
+          "file_size": 451425,
+          "image_size": [
+            837,
+            617
+          ],
+          "confidence": 0.234,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0040.jpg",
+          "file_name": "unrelated_image_0040.jpg",
+          "file_size": 173628,
+          "image_size": [
+            665,
+            764
+          ],
+          "confidence": 0.2,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0041.jpg",
+          "file_name": "unrelated_image_0041.jpg",
+          "file_size": 344459,
+          "image_size": [
+            696,
+            451
+          ],
+          "confidence": 0.218,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0042.jpg",
+          "file_name": "unrelated_image_0042.jpg",
+          "file_size": 344708,
+          "image_size": [
+            813,
+            617
+          ],
+          "confidence": 0.063,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4401 @@
+{
+  "summary": {
+    "target_ip": "微信",
+    "target_ip_count": 108,
+    "unrelated_count": 42,
+    "total_images": 150,
+    "similarity_threshold": 0.7,
+    "processing_time": "17.7秒",
+    "scan_time": "2025-10-03T14:36:18.623116"
+  },
+  "detailed_results": {
+    "微信": {
+      "count": 108,
+      "average_confidence": 0.69,
+      "images": [
+        {
+          "file_path": "/demo/images/微信/image_0000.jpg",
+          "file_name": "微信_image_0000.jpg",
+          "file_size": 474050,
+          "image_size": [
+            898,
+            567
+          ],
+          "confidence": 0.84,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0001.jpg",
+          "file_name": "微信_image_0001.jpg",
+          "file_size": 351330,
+          "image_size": [
+            452,
+            605
+          ],
+          "confidence": 0.876,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.48
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0002.jpg",
+          "file_name": "微信_image_0002.jpg",
+          "file_size": 424471,
+          "image_size": [
+            675,
+            640
+          ],
+          "confidence": 0.704,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0003.jpg",
+          "file_name": "微信_image_0003.jpg",
+          "file_size": 372393,
+          "image_size": [
+            649,
+            707
+          ],
+          "confidence": 0.881,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0004.jpg",
+          "file_name": "微信_image_0004.jpg",
+          "file_size": 269471,
+          "image_size": [
+            638,
+            401
+          ],
+          "confidence": 0.932,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0005.jpg",
+          "file_name": "微信_image_0005.jpg",
+          "file_size": 310908,
+          "image_size": [
+            586,
+            460
+          ],
+          "confidence": 0.854,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0006.jpg",
+          "file_name": "微信_image_0006.jpg",
+          "file_size": 54004,
+          "image_size": [
+            813,
+            776
+          ],
+          "confidence": 0.857,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0007.jpg",
+          "file_name": "微信_image_0007.jpg",
+          "file_size": 145356,
+          "image_size": [
+            853,
+            747
+          ],
+          "confidence": 0.851,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0008.jpg",
+          "file_name": "微信_image_0008.jpg",
+          "file_size": 342349,
+          "image_size": [
+            1127,
+            654
+          ],
+          "confidence": 0.78,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0009.jpg",
+          "file_name": "微信_image_0009.jpg",
+          "file_size": 342716,
+          "image_size": [
+            741,
+            353
+          ],
+          "confidence": 0.842,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            },
+            {
+              "label": "边框",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0010.jpg",
+          "file_name": "微信_image_0010.jpg",
+          "file_size": 486277,
+          "image_size": [
+            952,
+            506
+          ],
+          "confidence": 0.81,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            },
+            {
+              "label": "边框",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0011.jpg",
+          "file_name": "微信_image_0011.jpg",
+          "file_size": 50108,
+          "image_size": [
+            932,
+            644
+          ],
+          "confidence": 0.76,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0012.jpg",
+          "file_name": "微信_image_0012.jpg",
+          "file_size": 496092,
+          "image_size": [
+            960,
+            455
+          ],
+          "confidence": 0.721,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.6
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0013.jpg",
+          "file_name": "微信_image_0013.jpg",
+          "file_size": 210270,
+          "image_size": [
+            411,
+            364
+          ],
+          "confidence": 0.673,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.63
+            },
+            {
+              "label": "特效",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0014.jpg",
+          "file_name": "微信_image_0014.jpg",
+          "file_size": 292125,
+          "image_size": [
+            1010,
+            321
+          ],
+          "confidence": 0.804,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0015.jpg",
+          "file_name": "微信_image_0015.jpg",
+          "file_size": 373091,
+          "image_size": [
+            573,
+            666
+          ],
+          "confidence": 0.892,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0016.jpg",
+          "file_name": "微信_image_0016.jpg",
+          "file_size": 247829,
+          "image_size": [
+            766,
+            461
+          ],
+          "confidence": 0.901,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0017.jpg",
+          "file_name": "微信_image_0017.jpg",
+          "file_size": 326090,
+          "image_size": [
+            535,
+            653
+          ],
+          "confidence": 0.923,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            },
+            {
+              "label": "特效",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0018.jpg",
+          "file_name": "微信_image_0018.jpg",
+          "file_size": 170891,
+          "image_size": [
+            814,
+            357
+          ],
+          "confidence": 0.643,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0019.jpg",
+          "file_name": "微信_image_0019.jpg",
+          "file_size": 322580,
+          "image_size": [
+            1096,
+            502
+          ],
+          "confidence": 0.719,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0020.jpg",
+          "file_name": "微信_image_0020.jpg",
+          "file_size": 349018,
+          "image_size": [
+            479,
+            650
+          ],
+          "confidence": 0.8,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.44
+            },
+            {
+              "label": "特效",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0021.jpg",
+          "file_name": "微信_image_0021.jpg",
+          "file_size": 220035,
+          "image_size": [
+            856,
+            720
+          ],
+          "confidence": 0.902,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0022.jpg",
+          "file_name": "微信_image_0022.jpg",
+          "file_size": 171070,
+          "image_size": [
+            534,
+            638
+          ],
+          "confidence": 0.655,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0023.jpg",
+          "file_name": "微信_image_0023.jpg",
+          "file_size": 208039,
+          "image_size": [
+            725,
+            595
+          ],
+          "confidence": 0.82,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0024.jpg",
+          "file_name": "微信_image_0024.jpg",
+          "file_size": 300157,
+          "image_size": [
+            603,
+            742
+          ],
+          "confidence": 0.875,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0025.jpg",
+          "file_name": "微信_image_0025.jpg",
+          "file_size": 105456,
+          "image_size": [
+            544,
+            714
+          ],
+          "confidence": 0.847,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.57
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0026.jpg",
+          "file_name": "微信_image_0026.jpg",
+          "file_size": 256720,
+          "image_size": [
+            422,
+            692
+          ],
+          "confidence": 0.661,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0027.jpg",
+          "file_name": "微信_image_0027.jpg",
+          "file_size": 415366,
+          "image_size": [
+            952,
+            412
+          ],
+          "confidence": 0.801,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            },
+            {
+              "label": "边框",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0028.jpg",
+          "file_name": "微信_image_0028.jpg",
+          "file_size": 93480,
+          "image_size": [
+            927,
+            628
+          ],
+          "confidence": 0.947,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0029.jpg",
+          "file_name": "微信_image_0029.jpg",
+          "file_size": 299185,
+          "image_size": [
+            443,
+            713
+          ],
+          "confidence": 0.811,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0030.jpg",
+          "file_name": "微信_image_0030.jpg",
+          "file_size": 335275,
+          "image_size": [
+            929,
+            493
+          ],
+          "confidence": 0.694,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0031.jpg",
+          "file_name": "微信_image_0031.jpg",
+          "file_size": 279902,
+          "image_size": [
+            664,
+            544
+          ],
+          "confidence": 0.707,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.7
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0032.jpg",
+          "file_name": "微信_image_0032.jpg",
+          "file_size": 97737,
+          "image_size": [
+            606,
+            360
+          ],
+          "confidence": 0.947,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0033.jpg",
+          "file_name": "微信_image_0033.jpg",
+          "file_size": 373682,
+          "image_size": [
+            759,
+            597
+          ],
+          "confidence": 0.929,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.41
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0034.jpg",
+          "file_name": "微信_image_0034.jpg",
+          "file_size": 471933,
+          "image_size": [
+            696,
+            601
+          ],
+          "confidence": 0.826,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0035.jpg",
+          "file_name": "微信_image_0035.jpg",
+          "file_size": 304782,
+          "image_size": [
+            410,
+            562
+          ],
+          "confidence": 0.797,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.6
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0036.jpg",
+          "file_name": "微信_image_0036.jpg",
+          "file_size": 370001,
+          "image_size": [
+            511,
+            700
+          ],
+          "confidence": 0.674,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.6
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0037.jpg",
+          "file_name": "微信_image_0037.jpg",
+          "file_size": 184212,
+          "image_size": [
+            1125,
+            635
+          ],
+          "confidence": 0.948,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0038.jpg",
+          "file_name": "微信_image_0038.jpg",
+          "file_size": 149971,
+          "image_size": [
+            509,
+            419
+          ],
+          "confidence": 0.665,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "特效",
+              "confidence": 0.46
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0039.jpg",
+          "file_name": "微信_image_0039.jpg",
+          "file_size": 187221,
+          "image_size": [
+            1100,
+            618
+          ],
+          "confidence": 0.682,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "特效",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0040.jpg",
+          "file_name": "微信_image_0040.jpg",
+          "file_size": 119543,
+          "image_size": [
+            579,
+            581
+          ],
+          "confidence": 0.641,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0041.jpg",
+          "file_name": "微信_image_0041.jpg",
+          "file_size": 336011,
+          "image_size": [
+            770,
+            669
+          ],
+          "confidence": 0.912,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0042.jpg",
+          "file_name": "微信_image_0042.jpg",
+          "file_size": 111208,
+          "image_size": [
+            660,
+            441
+          ],
+          "confidence": 0.925,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "背景",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0043.jpg",
+          "file_name": "微信_image_0043.jpg",
+          "file_size": 460917,
+          "image_size": [
+            1085,
+            659
+          ],
+          "confidence": 0.751,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0044.jpg",
+          "file_name": "微信_image_0044.jpg",
+          "file_size": 366175,
+          "image_size": [
+            876,
+            547
+          ],
+          "confidence": 0.656,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0045.jpg",
+          "file_name": "微信_image_0045.jpg",
+          "file_size": 168837,
+          "image_size": [
+            1181,
+            593
+          ],
+          "confidence": 0.76,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0046.jpg",
+          "file_name": "微信_image_0046.jpg",
+          "file_size": 213923,
+          "image_size": [
+            928,
+            370
+          ],
+          "confidence": 0.83,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0047.jpg",
+          "file_name": "微信_image_0047.jpg",
+          "file_size": 117838,
+          "image_size": [
+            618,
+            484
+          ],
+          "confidence": 0.685,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            },
+            {
+              "label": "特效",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0048.jpg",
+          "file_name": "微信_image_0048.jpg",
+          "file_size": 245519,
+          "image_size": [
+            651,
+            417
+          ],
+          "confidence": 0.767,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0049.jpg",
+          "file_name": "微信_image_0049.jpg",
+          "file_size": 170592,
+          "image_size": [
+            657,
+            681
+          ],
+          "confidence": 0.859,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.63
+            },
+            {
+              "label": "背景",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0050.jpg",
+          "file_name": "微信_image_0050.jpg",
+          "file_size": 111985,
+          "image_size": [
+            542,
+            395
+          ],
+          "confidence": 0.694,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0051.jpg",
+          "file_name": "微信_image_0051.jpg",
+          "file_size": 349614,
+          "image_size": [
+            700,
+            520
+          ],
+          "confidence": 0.744,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0052.jpg",
+          "file_name": "微信_image_0052.jpg",
+          "file_size": 88620,
+          "image_size": [
+            782,
+            665
+          ],
+          "confidence": 0.828,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0053.jpg",
+          "file_name": "微信_image_0053.jpg",
+          "file_size": 321303,
+          "image_size": [
+            565,
+            724
+          ],
+          "confidence": 0.716,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0054.jpg",
+          "file_name": "微信_image_0054.jpg",
+          "file_size": 194013,
+          "image_size": [
+            1132,
+            720
+          ],
+          "confidence": 0.603,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0055.jpg",
+          "file_name": "微信_image_0055.jpg",
+          "file_size": 298752,
+          "image_size": [
+            750,
+            363
+          ],
+          "confidence": 0.893,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0056.jpg",
+          "file_name": "微信_image_0056.jpg",
+          "file_size": 222666,
+          "image_size": [
+            816,
+            629
+          ],
+          "confidence": 0.647,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0057.jpg",
+          "file_name": "微信_image_0057.jpg",
+          "file_size": 168621,
+          "image_size": [
+            1054,
+            323
+          ],
+          "confidence": 0.684,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0058.jpg",
+          "file_name": "微信_image_0058.jpg",
+          "file_size": 365906,
+          "image_size": [
+            544,
+            539
+          ],
+          "confidence": 0.824,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0059.jpg",
+          "file_name": "微信_image_0059.jpg",
+          "file_size": 447902,
+          "image_size": [
+            809,
+            361
+          ],
+          "confidence": 0.666,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0060.jpg",
+          "file_name": "微信_image_0060.jpg",
+          "file_size": 99706,
+          "image_size": [
+            572,
+            337
+          ],
+          "confidence": 0.625,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0061.jpg",
+          "file_name": "微信_image_0061.jpg",
+          "file_size": 401653,
+          "image_size": [
+            823,
+            776
+          ],
+          "confidence": 0.67,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0062.jpg",
+          "file_name": "微信_image_0062.jpg",
+          "file_size": 342835,
+          "image_size": [
+            947,
+            668
+          ],
+          "confidence": 0.616,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0063.jpg",
+          "file_name": "微信_image_0063.jpg",
+          "file_size": 242815,
+          "image_size": [
+            910,
+            485
+          ],
+          "confidence": 0.758,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0064.jpg",
+          "file_name": "微信_image_0064.jpg",
+          "file_size": 437583,
+          "image_size": [
+            655,
+            500
+          ],
+          "confidence": 0.636,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0065.jpg",
+          "file_name": "微信_image_0065.jpg",
+          "file_size": 328457,
+          "image_size": [
+            646,
+            589
+          ],
+          "confidence": 0.632,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0066.jpg",
+          "file_name": "微信_image_0066.jpg",
+          "file_size": 110884,
+          "image_size": [
+            806,
+            534
+          ],
+          "confidence": 0.702,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0067.jpg",
+          "file_name": "微信_image_0067.jpg",
+          "file_size": 354832,
+          "image_size": [
+            1089,
+            631
+          ],
+          "confidence": 0.887,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.4
+            },
+            {
+              "label": "边框",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0068.jpg",
+          "file_name": "微信_image_0068.jpg",
+          "file_size": 351936,
+          "image_size": [
+            701,
+            626
+          ],
+          "confidence": 0.614,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0069.jpg",
+          "file_name": "微信_image_0069.jpg",
+          "file_size": 195578,
+          "image_size": [
+            1052,
+            569
+          ],
+          "confidence": 0.801,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            },
+            {
+              "label": "特效",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0070.jpg",
+          "file_name": "微信_image_0070.jpg",
+          "file_size": 316670,
+          "image_size": [
+            897,
+            499
+          ],
+          "confidence": 0.827,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0071.jpg",
+          "file_name": "微信_image_0071.jpg",
+          "file_size": 402155,
+          "image_size": [
+            1135,
+            523
+          ],
+          "confidence": 0.943,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0072.jpg",
+          "file_name": "微信_image_0072.jpg",
+          "file_size": 419089,
+          "image_size": [
+            948,
+            503
+          ],
+          "confidence": 0.817,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0073.jpg",
+          "file_name": "微信_image_0073.jpg",
+          "file_size": 280853,
+          "image_size": [
+            729,
+            583
+          ],
+          "confidence": 0.792,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0074.jpg",
+          "file_name": "微信_image_0074.jpg",
+          "file_size": 482180,
+          "image_size": [
+            1103,
+            546
+          ],
+          "confidence": 0.754,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            },
+            {
+              "label": "边框",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0075.jpg",
+          "file_name": "微信_image_0075.jpg",
+          "file_size": 331422,
+          "image_size": [
+            928,
+            580
+          ],
+          "confidence": 0.616,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0076.jpg",
+          "file_name": "微信_image_0076.jpg",
+          "file_size": 150017,
+          "image_size": [
+            1114,
+            477
+          ],
+          "confidence": 0.919,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0077.jpg",
+          "file_name": "微信_image_0077.jpg",
+          "file_size": 242612,
+          "image_size": [
+            1045,
+            358
+          ],
+          "confidence": 0.829,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.68
+            },
+            {
+              "label": "背景",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0078.jpg",
+          "file_name": "微信_image_0078.jpg",
+          "file_size": 207118,
+          "image_size": [
+            685,
+            557
+          ],
+          "confidence": 0.827,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0079.jpg",
+          "file_name": "微信_image_0079.jpg",
+          "file_size": 345597,
+          "image_size": [
+            1026,
+            743
+          ],
+          "confidence": 0.64,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0080.jpg",
+          "file_name": "微信_image_0080.jpg",
+          "file_size": 311702,
+          "image_size": [
+            1125,
+            611
+          ],
+          "confidence": 0.693,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0081.jpg",
+          "file_name": "微信_image_0081.jpg",
+          "file_size": 423441,
+          "image_size": [
+            799,
+            776
+          ],
+          "confidence": 0.846,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0082.jpg",
+          "file_name": "微信_image_0082.jpg",
+          "file_size": 119043,
+          "image_size": [
+            966,
+            506
+          ],
+          "confidence": 0.734,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0083.jpg",
+          "file_name": "微信_image_0083.jpg",
+          "file_size": 270683,
+          "image_size": [
+            908,
+            401
+          ],
+          "confidence": 0.628,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "边框",
+              "confidence": 0.55
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0084.jpg",
+          "file_name": "微信_image_0084.jpg",
+          "file_size": 63869,
+          "image_size": [
+            1072,
+            655
+          ],
+          "confidence": 0.816,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0085.jpg",
+          "file_name": "微信_image_0085.jpg",
+          "file_size": 211675,
+          "image_size": [
+            831,
+            613
+          ],
+          "confidence": 0.773,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0086.jpg",
+          "file_name": "微信_image_0086.jpg",
+          "file_size": 50876,
+          "image_size": [
+            1104,
+            487
+          ],
+          "confidence": 0.754,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0087.jpg",
+          "file_name": "微信_image_0087.jpg",
+          "file_size": 253019,
+          "image_size": [
+            1171,
+            767
+          ],
+          "confidence": 0.836,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.7
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0088.jpg",
+          "file_name": "微信_image_0088.jpg",
+          "file_size": 228855,
+          "image_size": [
+            637,
+            319
+          ],
+          "confidence": 0.676,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0089.jpg",
+          "file_name": "微信_image_0089.jpg",
+          "file_size": 451475,
+          "image_size": [
+            420,
+            795
+          ],
+          "confidence": 0.803,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0090.jpg",
+          "file_name": "微信_image_0090.jpg",
+          "file_size": 479430,
+          "image_size": [
+            1090,
+            730
+          ],
+          "confidence": 0.689,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0091.jpg",
+          "file_name": "微信_image_0091.jpg",
+          "file_size": 483481,
+          "image_size": [
+            1023,
+            361
+          ],
+          "confidence": 0.763,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0092.jpg",
+          "file_name": "微信_image_0092.jpg",
+          "file_size": 368985,
+          "image_size": [
+            416,
+            365
+          ],
+          "confidence": 0.721,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0093.jpg",
+          "file_name": "微信_image_0093.jpg",
+          "file_size": 291598,
+          "image_size": [
+            764,
+            770
+          ],
+          "confidence": 0.668,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0094.jpg",
+          "file_name": "微信_image_0094.jpg",
+          "file_size": 253070,
+          "image_size": [
+            747,
+            350
+          ],
+          "confidence": 0.634,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0095.jpg",
+          "file_name": "微信_image_0095.jpg",
+          "file_size": 269878,
+          "image_size": [
+            569,
+            422
+          ],
+          "confidence": 0.704,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0096.jpg",
+          "file_name": "微信_image_0096.jpg",
+          "file_size": 61597,
+          "image_size": [
+            1004,
+            365
+          ],
+          "confidence": 0.77,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0097.jpg",
+          "file_name": "微信_image_0097.jpg",
+          "file_size": 373474,
+          "image_size": [
+            971,
+            766
+          ],
+          "confidence": 0.716,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0098.jpg",
+          "file_name": "微信_image_0098.jpg",
+          "file_size": 200932,
+          "image_size": [
+            589,
+            419
+          ],
+          "confidence": 0.635,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0099.jpg",
+          "file_name": "微信_image_0099.jpg",
+          "file_size": 393393,
+          "image_size": [
+            1128,
+            665
+          ],
+          "confidence": 0.877,
+          "best_match": "微信小程序",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信小程序"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0100.jpg",
+          "file_name": "微信_image_0100.jpg",
+          "file_size": 212928,
+          "image_size": [
+            932,
+            409
+          ],
+          "confidence": 0.831,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0101.jpg",
+          "file_name": "微信_image_0101.jpg",
+          "file_size": 272036,
+          "image_size": [
+            600,
+            536
+          ],
+          "confidence": 0.751,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0102.jpg",
+          "file_name": "微信_image_0102.jpg",
+          "file_size": 290435,
+          "image_size": [
+            989,
+            717
+          ],
+          "confidence": 0.74,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0103.jpg",
+          "file_name": "微信_image_0103.jpg",
+          "file_size": 53344,
+          "image_size": [
+            997,
+            707
+          ],
+          "confidence": 0.779,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0104.jpg",
+          "file_name": "微信_image_0104.jpg",
+          "file_size": 497331,
+          "image_size": [
+            960,
+            709
+          ],
+          "confidence": 0.696,
+          "best_match": "微信聊天",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信聊天"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0105.jpg",
+          "file_name": "微信_image_0105.jpg",
+          "file_size": 102280,
+          "image_size": [
+            562,
+            564
+          ],
+          "confidence": 0.866,
+          "best_match": "微信表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信表情"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0106.jpg",
+          "file_name": "微信_image_0106.jpg",
+          "file_size": 491211,
+          "image_size": [
+            925,
+            515
+          ],
+          "confidence": 0.612,
+          "best_match": "微信支付",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信支付"
+        },
+        {
+          "file_path": "/demo/images/微信/image_0107.jpg",
+          "file_name": "微信_image_0107.jpg",
+          "file_size": 406561,
+          "image_size": [
+            655,
+            422
+          ],
+          "confidence": 0.674,
+          "best_match": "微信红包",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微信特征: 微信红包"
+        }
+      ]
+    },
+    "unrelated": {
+      "count": 42,
+      "average_confidence": 0.37,
+      "images": [
+        {
+          "file_path": "/demo/images/unrelated/image_0000.jpg",
+          "file_name": "unrelated_image_0000.jpg",
+          "file_size": 460602,
+          "image_size": [
+            769,
+            705
+          ],
+          "confidence": 0.098,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0001.jpg",
+          "file_name": "unrelated_image_0001.jpg",
+          "file_size": 388076,
+          "image_size": [
+            573,
+            499
+          ],
+          "confidence": 0.289,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0002.jpg",
+          "file_name": "unrelated_image_0002.jpg",
+          "file_size": 416628,
+          "image_size": [
+            446,
+            320
+          ],
+          "confidence": 0.274,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0003.jpg",
+          "file_name": "unrelated_image_0003.jpg",
+          "file_size": 280633,
+          "image_size": [
+            464,
+            755
+          ],
+          "confidence": 0.237,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0004.jpg",
+          "file_name": "unrelated_image_0004.jpg",
+          "file_size": 292304,
+          "image_size": [
+            905,
+            335
+          ],
+          "confidence": 0.08,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0005.jpg",
+          "file_name": "unrelated_image_0005.jpg",
+          "file_size": 424586,
+          "image_size": [
+            1162,
+            752
+          ],
+          "confidence": 0.083,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0006.jpg",
+          "file_name": "unrelated_image_0006.jpg",
+          "file_size": 225003,
+          "image_size": [
+            1144,
+            410
+          ],
+          "confidence": 0.277,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0007.jpg",
+          "file_name": "unrelated_image_0007.jpg",
+          "file_size": 271796,
+          "image_size": [
+            511,
+            440
+          ],
+          "confidence": 0.065,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0008.jpg",
+          "file_name": "unrelated_image_0008.jpg",
+          "file_size": 445257,
+          "image_size": [
+            753,
+            523
+          ],
+          "confidence": 0.218,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0009.jpg",
+          "file_name": "unrelated_image_0009.jpg",
+          "file_size": 144824,
+          "image_size": [
+            1125,
+            552
+          ],
+          "confidence": 0.085,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0010.jpg",
+          "file_name": "unrelated_image_0010.jpg",
+          "file_size": 241469,
+          "image_size": [
+            729,
+            482
+          ],
+          "confidence": 0.3,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0011.jpg",
+          "file_name": "unrelated_image_0011.jpg",
+          "file_size": 406628,
+          "image_size": [
+            826,
+            790
+          ],
+          "confidence": 0.185,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0012.jpg",
+          "file_name": "unrelated_image_0012.jpg",
+          "file_size": 386749,
+          "image_size": [
+            580,
+            750
+          ],
+          "confidence": 0.189,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0013.jpg",
+          "file_name": "unrelated_image_0013.jpg",
+          "file_size": 203522,
+          "image_size": [
+            757,
+            333
+          ],
+          "confidence": 0.225,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.7
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0014.jpg",
+          "file_name": "unrelated_image_0014.jpg",
+          "file_size": 160012,
+          "image_size": [
+            1057,
+            562
+          ],
+          "confidence": 0.135,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0015.jpg",
+          "file_name": "unrelated_image_0015.jpg",
+          "file_size": 469147,
+          "image_size": [
+            407,
+            333
+          ],
+          "confidence": 0.089,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0016.jpg",
+          "file_name": "unrelated_image_0016.jpg",
+          "file_size": 397933,
+          "image_size": [
+            414,
+            608
+          ],
+          "confidence": 0.248,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0017.jpg",
+          "file_name": "unrelated_image_0017.jpg",
+          "file_size": 236769,
+          "image_size": [
+            844,
+            565
+          ],
+          "confidence": 0.177,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0018.jpg",
+          "file_name": "unrelated_image_0018.jpg",
+          "file_size": 377358,
+          "image_size": [
+            830,
+            355
+          ],
+          "confidence": 0.177,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0019.jpg",
+          "file_name": "unrelated_image_0019.jpg",
+          "file_size": 91610,
+          "image_size": [
+            640,
+            408
+          ],
+          "confidence": 0.134,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0020.jpg",
+          "file_name": "unrelated_image_0020.jpg",
+          "file_size": 107373,
+          "image_size": [
+            970,
+            362
+          ],
+          "confidence": 0.218,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0021.jpg",
+          "file_name": "unrelated_image_0021.jpg",
+          "file_size": 402083,
+          "image_size": [
+            783,
+            666
+          ],
+          "confidence": 0.123,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0022.jpg",
+          "file_name": "unrelated_image_0022.jpg",
+          "file_size": 362585,
+          "image_size": [
+            611,
+            760
+          ],
+          "confidence": 0.105,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0023.jpg",
+          "file_name": "unrelated_image_0023.jpg",
+          "file_size": 176772,
+          "image_size": [
+            1140,
+            374
+          ],
+          "confidence": 0.085,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0024.jpg",
+          "file_name": "unrelated_image_0024.jpg",
+          "file_size": 74896,
+          "image_size": [
+            921,
+            449
+          ],
+          "confidence": 0.203,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0025.jpg",
+          "file_name": "unrelated_image_0025.jpg",
+          "file_size": 165066,
+          "image_size": [
+            401,
+            685
+          ],
+          "confidence": 0.196,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0026.jpg",
+          "file_name": "unrelated_image_0026.jpg",
+          "file_size": 457741,
+          "image_size": [
+            932,
+            411
+          ],
+          "confidence": 0.21,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.8
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0027.jpg",
+          "file_name": "unrelated_image_0027.jpg",
+          "file_size": 120646,
+          "image_size": [
+            704,
+            494
+          ],
+          "confidence": 0.201,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0028.jpg",
+          "file_name": "unrelated_image_0028.jpg",
+          "file_size": 207740,
+          "image_size": [
+            1156,
+            671
+          ],
+          "confidence": 0.224,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0029.jpg",
+          "file_name": "unrelated_image_0029.jpg",
+          "file_size": 90160,
+          "image_size": [
+            956,
+            500
+          ],
+          "confidence": 0.291,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0030.jpg",
+          "file_name": "unrelated_image_0030.jpg",
+          "file_size": 335389,
+          "image_size": [
+            467,
+            641
+          ],
+          "confidence": 0.268,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0031.jpg",
+          "file_name": "unrelated_image_0031.jpg",
+          "file_size": 451325,
+          "image_size": [
+            755,
+            798
+          ],
+          "confidence": 0.142,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0032.jpg",
+          "file_name": "unrelated_image_0032.jpg",
+          "file_size": 248324,
+          "image_size": [
+            723,
+            428
+          ],
+          "confidence": 0.247,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0033.jpg",
+          "file_name": "unrelated_image_0033.jpg",
+          "file_size": 457421,
+          "image_size": [
+            806,
+            440
+          ],
+          "confidence": 0.237,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0034.jpg",
+          "file_name": "unrelated_image_0034.jpg",
+          "file_size": 112628,
+          "image_size": [
+            657,
+            437
+          ],
+          "confidence": 0.237,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0035.jpg",
+          "file_name": "unrelated_image_0035.jpg",
+          "file_size": 474309,
+          "image_size": [
+            430,
+            598
+          ],
+          "confidence": 0.123,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0036.jpg",
+          "file_name": "unrelated_image_0036.jpg",
+          "file_size": 124850,
+          "image_size": [
+            998,
+            306
+          ],
+          "confidence": 0.071,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0037.jpg",
+          "file_name": "unrelated_image_0037.jpg",
+          "file_size": 250274,
+          "image_size": [
+            1101,
+            518
+          ],
+          "confidence": 0.087,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0038.jpg",
+          "file_name": "unrelated_image_0038.jpg",
+          "file_size": 135839,
+          "image_size": [
+            510,
+            347
+          ],
+          "confidence": 0.262,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0039.jpg",
+          "file_name": "unrelated_image_0039.jpg",
+          "file_size": 152264,
+          "image_size": [
+            1107,
+            702
+          ],
+          "confidence": 0.256,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0040.jpg",
+          "file_name": "unrelated_image_0040.jpg",
+          "file_size": 370982,
+          "image_size": [
+            528,
+            776
+          ],
+          "confidence": 0.282,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.75
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0041.jpg",
+          "file_name": "unrelated_image_0041.jpg",
+          "file_size": 192847,
+          "image_size": [
+            877,
+            386
+          ],
+          "confidence": 0.075,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        }
+      ]
+    }
+  }
+}

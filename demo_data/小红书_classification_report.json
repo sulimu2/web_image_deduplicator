@@ -1,0 +1,4265 @@
+{
+  "summary": {
+    "target_ip": "小红书",
+    "target_ip_count": 95,
+    "unrelated_count": 55,
+    "total_images": 150,
+    "similarity_threshold": 0.7,
+    "processing_time": "17.6秒",
+    "scan_time": "2025-10-03T14:36:18.630377"
+  },
+  "detailed_results": {
+    "小红书": {
+      "count": 95,
+      "average_confidence": 0.87,
+      "images": [
+        {
+          "file_path": "/demo/images/小红书/image_0000.jpg",
+          "file_name": "小红书_image_0000.jpg",
+          "file_size": 307441,
+          "image_size": [
+            995,
+            336
+          ],
+          "confidence": 0.757,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0001.jpg",
+          "file_name": "小红书_image_0001.jpg",
+          "file_size": 317129,
+          "image_size": [
+            790,
+            328
+          ],
+          "confidence": 0.671,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0002.jpg",
+          "file_name": "小红书_image_0002.jpg",
+          "file_size": 168420,
+          "image_size": [
+            797,
+            385
+          ],
+          "confidence": 0.864,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0003.jpg",
+          "file_name": "小红书_image_0003.jpg",
+          "file_size": 174884,
+          "image_size": [
+            524,
+            585
+          ],
+          "confidence": 0.711,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0004.jpg",
+          "file_name": "小红书_image_0004.jpg",
+          "file_size": 262735,
+          "image_size": [
+            1165,
+            669
+          ],
+          "confidence": 0.711,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0005.jpg",
+          "file_name": "小红书_image_0005.jpg",
+          "file_size": 108980,
+          "image_size": [
+            547,
+            790
+          ],
+          "confidence": 0.776,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0006.jpg",
+          "file_name": "小红书_image_0006.jpg",
+          "file_size": 231964,
+          "image_size": [
+            963,
+            672
+          ],
+          "confidence": 0.816,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "特效",
+              "confidence": 0.42
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0007.jpg",
+          "file_name": "小红书_image_0007.jpg",
+          "file_size": 117285,
+          "image_size": [
+            738,
+            562
+          ],
+          "confidence": 0.668,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0008.jpg",
+          "file_name": "小红书_image_0008.jpg",
+          "file_size": 160027,
+          "image_size": [
+            472,
+            354
+          ],
+          "confidence": 0.648,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0009.jpg",
+          "file_name": "小红书_image_0009.jpg",
+          "file_size": 59281,
+          "image_size": [
+            790,
+            386
+          ],
+          "confidence": 0.948,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0010.jpg",
+          "file_name": "小红书_image_0010.jpg",
+          "file_size": 483284,
+          "image_size": [
+            892,
+            408
+          ],
+          "confidence": 0.889,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "特效",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0011.jpg",
+          "file_name": "小红书_image_0011.jpg",
+          "file_size": 246024,
+          "image_size": [
+            893,
+            461
+          ],
+          "confidence": 0.816,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0012.jpg",
+          "file_name": "小红书_image_0012.jpg",
+          "file_size": 272589,
+          "image_size": [
+            721,
+            451
+          ],
+          "confidence": 0.832,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0013.jpg",
+          "file_name": "小红书_image_0013.jpg",
+          "file_size": 408659,
+          "image_size": [
+            635,
+            300
+          ],
+          "confidence": 0.746,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0014.jpg",
+          "file_name": "小红书_image_0014.jpg",
+          "file_size": 230054,
+          "image_size": [
+            535,
+            520
+          ],
+          "confidence": 0.719,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0015.jpg",
+          "file_name": "小红书_image_0015.jpg",
+          "file_size": 366890,
+          "image_size": [
+            402,
+            612
+          ],
+          "confidence": 0.84,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0016.jpg",
+          "file_name": "小红书_image_0016.jpg",
+          "file_size": 170613,
+          "image_size": [
+            661,
+            526
+          ],
+          "confidence": 0.616,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "边框",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0017.jpg",
+          "file_name": "小红书_image_0017.jpg",
+          "file_size": 132661,
+          "image_size": [
+            825,
+            667
+          ],
+          "confidence": 0.927,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0018.jpg",
+          "file_name": "小红书_image_0018.jpg",
+          "file_size": 215782,
+          "image_size": [
+            812,
+            576
+          ],
+          "confidence": 0.826,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "边框",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0019.jpg",
+          "file_name": "小红书_image_0019.jpg",
+          "file_size": 182852,
+          "image_size": [
+            667,
+            479
+          ],
+          "confidence": 0.724,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            },
+            {
+              "label": "边框",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0020.jpg",
+          "file_name": "小红书_image_0020.jpg",
+          "file_size": 93060,
+          "image_size": [
+            1152,
+            397
+          ],
+          "confidence": 0.639,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0021.jpg",
+          "file_name": "小红书_image_0021.jpg",
+          "file_size": 490950,
+          "image_size": [
+            449,
+            662
+          ],
+          "confidence": 0.947,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.6
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0022.jpg",
+          "file_name": "小红书_image_0022.jpg",
+          "file_size": 96423,
+          "image_size": [
+            1122,
+            546
+          ],
+          "confidence": 0.727,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0023.jpg",
+          "file_name": "小红书_image_0023.jpg",
+          "file_size": 388881,
+          "image_size": [
+            732,
+            357
+          ],
+          "confidence": 0.852,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0024.jpg",
+          "file_name": "小红书_image_0024.jpg",
+          "file_size": 492045,
+          "image_size": [
+            538,
+            727
+          ],
+          "confidence": 0.888,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0025.jpg",
+          "file_name": "小红书_image_0025.jpg",
+          "file_size": 316677,
+          "image_size": [
+            796,
+            677
+          ],
+          "confidence": 0.945,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0026.jpg",
+          "file_name": "小红书_image_0026.jpg",
+          "file_size": 352092,
+          "image_size": [
+            655,
+            791
+          ],
+          "confidence": 0.884,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0027.jpg",
+          "file_name": "小红书_image_0027.jpg",
+          "file_size": 122847,
+          "image_size": [
+            964,
+            451
+          ],
+          "confidence": 0.726,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0028.jpg",
+          "file_name": "小红书_image_0028.jpg",
+          "file_size": 369114,
+          "image_size": [
+            1128,
+            650
+          ],
+          "confidence": 0.782,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0029.jpg",
+          "file_name": "小红书_image_0029.jpg",
+          "file_size": 264653,
+          "image_size": [
+            894,
+            710
+          ],
+          "confidence": 0.617,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0030.jpg",
+          "file_name": "小红书_image_0030.jpg",
+          "file_size": 315420,
+          "image_size": [
+            1081,
+            480
+          ],
+          "confidence": 0.794,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0031.jpg",
+          "file_name": "小红书_image_0031.jpg",
+          "file_size": 134393,
+          "image_size": [
+            481,
+            497
+          ],
+          "confidence": 0.941,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0032.jpg",
+          "file_name": "小红书_image_0032.jpg",
+          "file_size": 171945,
+          "image_size": [
+            1193,
+            597
+          ],
+          "confidence": 0.846,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0033.jpg",
+          "file_name": "小红书_image_0033.jpg",
+          "file_size": 416743,
+          "image_size": [
+            1095,
+            569
+          ],
+          "confidence": 0.883,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0034.jpg",
+          "file_name": "小红书_image_0034.jpg",
+          "file_size": 133801,
+          "image_size": [
+            462,
+            410
+          ],
+          "confidence": 0.936,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "边框",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0035.jpg",
+          "file_name": "小红书_image_0035.jpg",
+          "file_size": 258236,
+          "image_size": [
+            488,
+            625
+          ],
+          "confidence": 0.795,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            },
+            {
+              "label": "特效",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0036.jpg",
+          "file_name": "小红书_image_0036.jpg",
+          "file_size": 372948,
+          "image_size": [
+            1186,
+            727
+          ],
+          "confidence": 0.647,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0037.jpg",
+          "file_name": "小红书_image_0037.jpg",
+          "file_size": 191025,
+          "image_size": [
+            468,
+            630
+          ],
+          "confidence": 0.647,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0038.jpg",
+          "file_name": "小红书_image_0038.jpg",
+          "file_size": 155189,
+          "image_size": [
+            1152,
+            720
+          ],
+          "confidence": 0.692,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            },
+            {
+              "label": "边框",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0039.jpg",
+          "file_name": "小红书_image_0039.jpg",
+          "file_size": 160752,
+          "image_size": [
+            487,
+            356
+          ],
+          "confidence": 0.739,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0040.jpg",
+          "file_name": "小红书_image_0040.jpg",
+          "file_size": 410021,
+          "image_size": [
+            1187,
+            304
+          ],
+          "confidence": 0.652,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.6
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0041.jpg",
+          "file_name": "小红书_image_0041.jpg",
+          "file_size": 456525,
+          "image_size": [
+            924,
+            414
+          ],
+          "confidence": 0.898,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0042.jpg",
+          "file_name": "小红书_image_0042.jpg",
+          "file_size": 71800,
+          "image_size": [
+            617,
+            576
+          ],
+          "confidence": 0.875,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.4
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0043.jpg",
+          "file_name": "小红书_image_0043.jpg",
+          "file_size": 337594,
+          "image_size": [
+            900,
+            667
+          ],
+          "confidence": 0.936,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0044.jpg",
+          "file_name": "小红书_image_0044.jpg",
+          "file_size": 383649,
+          "image_size": [
+            1061,
+            378
+          ],
+          "confidence": 0.781,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0045.jpg",
+          "file_name": "小红书_image_0045.jpg",
+          "file_size": 103894,
+          "image_size": [
+            1199,
+            436
+          ],
+          "confidence": 0.747,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0046.jpg",
+          "file_name": "小红书_image_0046.jpg",
+          "file_size": 335509,
+          "image_size": [
+            1037,
+            455
+          ],
+          "confidence": 0.824,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0047.jpg",
+          "file_name": "小红书_image_0047.jpg",
+          "file_size": 394754,
+          "image_size": [
+            805,
+            656
+          ],
+          "confidence": 0.83,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            },
+            {
+              "label": "特效",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0048.jpg",
+          "file_name": "小红书_image_0048.jpg",
+          "file_size": 132241,
+          "image_size": [
+            742,
+            461
+          ],
+          "confidence": 0.915,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.51
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0049.jpg",
+          "file_name": "小红书_image_0049.jpg",
+          "file_size": 346107,
+          "image_size": [
+            601,
+            403
+          ],
+          "confidence": 0.887,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0050.jpg",
+          "file_name": "小红书_image_0050.jpg",
+          "file_size": 417877,
+          "image_size": [
+            795,
+            409
+          ],
+          "confidence": 0.885,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0051.jpg",
+          "file_name": "小红书_image_0051.jpg",
+          "file_size": 478750,
+          "image_size": [
+            653,
+            773
+          ],
+          "confidence": 0.937,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0052.jpg",
+          "file_name": "小红书_image_0052.jpg",
+          "file_size": 139971,
+          "image_size": [
+            944,
+            527
+          ],
+          "confidence": 0.622,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0053.jpg",
+          "file_name": "小红书_image_0053.jpg",
+          "file_size": 364391,
+          "image_size": [
+            860,
+            593
+          ],
+          "confidence": 0.753,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0054.jpg",
+          "file_name": "小红书_image_0054.jpg",
+          "file_size": 426883,
+          "image_size": [
+            854,
+            341
+          ],
+          "confidence": 0.631,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0055.jpg",
+          "file_name": "小红书_image_0055.jpg",
+          "file_size": 261466,
+          "image_size": [
+            484,
+            438
+          ],
+          "confidence": 0.852,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0056.jpg",
+          "file_name": "小红书_image_0056.jpg",
+          "file_size": 237534,
+          "image_size": [
+            876,
+            346
+          ],
+          "confidence": 0.925,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0057.jpg",
+          "file_name": "小红书_image_0057.jpg",
+          "file_size": 139727,
+          "image_size": [
+            1131,
+            518
+          ],
+          "confidence": 0.948,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0058.jpg",
+          "file_name": "小红书_image_0058.jpg",
+          "file_size": 261965,
+          "image_size": [
+            650,
+            402
+          ],
+          "confidence": 0.949,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.46
+            },
+            {
+              "label": "特效",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0059.jpg",
+          "file_name": "小红书_image_0059.jpg",
+          "file_size": 441831,
+          "image_size": [
+            969,
+            432
+          ],
+          "confidence": 0.937,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0060.jpg",
+          "file_name": "小红书_image_0060.jpg",
+          "file_size": 72695,
+          "image_size": [
+            1036,
+            726
+          ],
+          "confidence": 0.753,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0061.jpg",
+          "file_name": "小红书_image_0061.jpg",
+          "file_size": 428036,
+          "image_size": [
+            741,
+            351
+          ],
+          "confidence": 0.655,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0062.jpg",
+          "file_name": "小红书_image_0062.jpg",
+          "file_size": 190829,
+          "image_size": [
+            459,
+            715
+          ],
+          "confidence": 0.713,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0063.jpg",
+          "file_name": "小红书_image_0063.jpg",
+          "file_size": 372037,
+          "image_size": [
+            1005,
+            539
+          ],
+          "confidence": 0.911,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            },
+            {
+              "label": "特效",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0064.jpg",
+          "file_name": "小红书_image_0064.jpg",
+          "file_size": 345552,
+          "image_size": [
+            1006,
+            319
+          ],
+          "confidence": 0.744,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0065.jpg",
+          "file_name": "小红书_image_0065.jpg",
+          "file_size": 286072,
+          "image_size": [
+            515,
+            367
+          ],
+          "confidence": 0.684,
+          "best_match": "小红书探店",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "边框",
+              "confidence": 0.58
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书探店"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0066.jpg",
+          "file_name": "小红书_image_0066.jpg",
+          "file_size": 51429,
+          "image_size": [
+            845,
+            570
+          ],
+          "confidence": 0.937,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0067.jpg",
+          "file_name": "小红书_image_0067.jpg",
+          "file_size": 492279,
+          "image_size": [
+            984,
+            387
+          ],
+          "confidence": 0.941,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0068.jpg",
+          "file_name": "小红书_image_0068.jpg",
+          "file_size": 150772,
+          "image_size": [
+            850,
+            606
+          ],
+          "confidence": 0.624,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.46
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0069.jpg",
+          "file_name": "小红书_image_0069.jpg",
+          "file_size": 52106,
+          "image_size": [
+            607,
+            781
+          ],
+          "confidence": 0.826,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.63
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0070.jpg",
+          "file_name": "小红书_image_0070.jpg",
+          "file_size": 230875,
+          "image_size": [
+            848,
+            705
+          ],
+          "confidence": 0.799,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "特效",
+              "confidence": 0.6
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0071.jpg",
+          "file_name": "小红书_image_0071.jpg",
+          "file_size": 361537,
+          "image_size": [
+            856,
+            477
+          ],
+          "confidence": 0.637,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0072.jpg",
+          "file_name": "小红书_image_0072.jpg",
+          "file_size": 199444,
+          "image_size": [
+            593,
+            355
+          ],
+          "confidence": 0.655,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            },
+            {
+              "label": "边框",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0073.jpg",
+          "file_name": "小红书_image_0073.jpg",
+          "file_size": 147277,
+          "image_size": [
+            860,
+            342
+          ],
+          "confidence": 0.658,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0074.jpg",
+          "file_name": "小红书_image_0074.jpg",
+          "file_size": 261791,
+          "image_size": [
+            532,
+            625
+          ],
+          "confidence": 0.828,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0075.jpg",
+          "file_name": "小红书_image_0075.jpg",
+          "file_size": 138065,
+          "image_size": [
+            970,
+            761
+          ],
+          "confidence": 0.788,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0076.jpg",
+          "file_name": "小红书_image_0076.jpg",
+          "file_size": 161470,
+          "image_size": [
+            904,
+            785
+          ],
+          "confidence": 0.933,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0077.jpg",
+          "file_name": "小红书_image_0077.jpg",
+          "file_size": 495999,
+          "image_size": [
+            1102,
+            498
+          ],
+          "confidence": 0.717,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0078.jpg",
+          "file_name": "小红书_image_0078.jpg",
+          "file_size": 408772,
+          "image_size": [
+            1080,
+            722
+          ],
+          "confidence": 0.65,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0079.jpg",
+          "file_name": "小红书_image_0079.jpg",
+          "file_size": 386510,
+          "image_size": [
+            577,
+            792
+          ],
+          "confidence": 0.671,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            },
+            {
+              "label": "背景",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0080.jpg",
+          "file_name": "小红书_image_0080.jpg",
+          "file_size": 257075,
+          "image_size": [
+            417,
+            723
+          ],
+          "confidence": 0.866,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0081.jpg",
+          "file_name": "小红书_image_0081.jpg",
+          "file_size": 460369,
+          "image_size": [
+            872,
+            549
+          ],
+          "confidence": 0.707,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.6
+            },
+            {
+              "label": "边框",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0082.jpg",
+          "file_name": "小红书_image_0082.jpg",
+          "file_size": 400551,
+          "image_size": [
+            670,
+            320
+          ],
+          "confidence": 0.724,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0083.jpg",
+          "file_name": "小红书_image_0083.jpg",
+          "file_size": 384798,
+          "image_size": [
+            965,
+            546
+          ],
+          "confidence": 0.863,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0084.jpg",
+          "file_name": "小红书_image_0084.jpg",
+          "file_size": 497444,
+          "image_size": [
+            1144,
+            604
+          ],
+          "confidence": 0.721,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0085.jpg",
+          "file_name": "小红书_image_0085.jpg",
+          "file_size": 242391,
+          "image_size": [
+            958,
+            512
+          ],
+          "confidence": 0.642,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0086.jpg",
+          "file_name": "小红书_image_0086.jpg",
+          "file_size": 241807,
+          "image_size": [
+            1022,
+            553
+          ],
+          "confidence": 0.719,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "边框",
+              "confidence": 0.68
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0087.jpg",
+          "file_name": "小红书_image_0087.jpg",
+          "file_size": 168338,
+          "image_size": [
+            623,
+            357
+          ],
+          "confidence": 0.912,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.57
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0088.jpg",
+          "file_name": "小红书_image_0088.jpg",
+          "file_size": 148246,
+          "image_size": [
+            561,
+            356
+          ],
+          "confidence": 0.906,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0089.jpg",
+          "file_name": "小红书_image_0089.jpg",
+          "file_size": 416980,
+          "image_size": [
+            779,
+            795
+          ],
+          "confidence": 0.849,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0090.jpg",
+          "file_name": "小红书_image_0090.jpg",
+          "file_size": 309191,
+          "image_size": [
+            949,
+            602
+          ],
+          "confidence": 0.904,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0091.jpg",
+          "file_name": "小红书_image_0091.jpg",
+          "file_size": 444591,
+          "image_size": [
+            897,
+            790
+          ],
+          "confidence": 0.938,
+          "best_match": "小红书笔记",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书笔记"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0092.jpg",
+          "file_name": "小红书_image_0092.jpg",
+          "file_size": 280969,
+          "image_size": [
+            714,
+            584
+          ],
+          "confidence": 0.7,
+          "best_match": "小红书种草",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书种草"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0093.jpg",
+          "file_name": "小红书_image_0093.jpg",
+          "file_size": 76687,
+          "image_size": [
+            485,
+            524
+          ],
+          "confidence": 0.721,
+          "best_match": "小红书穿搭",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书穿搭"
+        },
+        {
+          "file_path": "/demo/images/小红书/image_0094.jpg",
+          "file_name": "小红书_image_0094.jpg",
+          "file_size": 131456,
+          "image_size": [
+            453,
+            748
+          ],
+          "confidence": 0.946,
+          "best_match": "小红书美妆",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到小红书特征: 小红书美妆"
+        }
+      ]
+    },
+    "unrelated": {
+      "count": 55,
+      "average_confidence": 0.19,
+      "images": [
+        {
+          "file_path": "/demo/images/unrelated/image_0000.jpg",
+          "file_name": "unrelated_image_0000.jpg",
+          "file_size": 223688,
+          "image_size": [
+            477,
+            651
+          ],
+          "confidence": 0.22,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0001.jpg",
+          "file_name": "unrelated_image_0001.jpg",
+          "file_size": 181918,
+          "image_size": [
+            1040,
+            673
+          ],
+          "confidence": 0.223,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0002.jpg",
+          "file_name": "unrelated_image_0002.jpg",
+          "file_size": 106110,
+          "image_size": [
+            638,
+            581
+          ],
+          "confidence": 0.172,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0003.jpg",
+          "file_name": "unrelated_image_0003.jpg",
+          "file_size": 99090,
+          "image_size": [
+            957,
+            543
+          ],
+          "confidence": 0.155,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0004.jpg",
+          "file_name": "unrelated_image_0004.jpg",
+          "file_size": 473530,
+          "image_size": [
+            572,
+            439
+          ],
+          "confidence": 0.159,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0005.jpg",
+          "file_name": "unrelated_image_0005.jpg",
+          "file_size": 64668,
+          "image_size": [
+            585,
+            500
+          ],
+          "confidence": 0.155,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0006.jpg",
+          "file_name": "unrelated_image_0006.jpg",
+          "file_size": 408964,
+          "image_size": [
+            673,
+            315
+          ],
+          "confidence": 0.088,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.75
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0007.jpg",
+          "file_name": "unrelated_image_0007.jpg",
+          "file_size": 168457,
+          "image_size": [
+            1010,
+            761
+          ],
+          "confidence": 0.224,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0008.jpg",
+          "file_name": "unrelated_image_0008.jpg",
+          "file_size": 151362,
+          "image_size": [
+            1184,
+            669
+          ],
+          "confidence": 0.268,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0009.jpg",
+          "file_name": "unrelated_image_0009.jpg",
+          "file_size": 456916,
+          "image_size": [
+            658,
+            420
+          ],
+          "confidence": 0.222,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0010.jpg",
+          "file_name": "unrelated_image_0010.jpg",
+          "file_size": 235396,
+          "image_size": [
+            746,
+            787
+          ],
+          "confidence": 0.139,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0011.jpg",
+          "file_name": "unrelated_image_0011.jpg",
+          "file_size": 138967,
+          "image_size": [
+            866,
+            519
+          ],
+          "confidence": 0.2,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0012.jpg",
+          "file_name": "unrelated_image_0012.jpg",
+          "file_size": 252273,
+          "image_size": [
+            589,
+            500
+          ],
+          "confidence": 0.229,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0013.jpg",
+          "file_name": "unrelated_image_0013.jpg",
+          "file_size": 276318,
+          "image_size": [
+            869,
+            397
+          ],
+          "confidence": 0.258,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.7
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0014.jpg",
+          "file_name": "unrelated_image_0014.jpg",
+          "file_size": 359004,
+          "image_size": [
+            843,
+            670
+          ],
+          "confidence": 0.173,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0015.jpg",
+          "file_name": "unrelated_image_0015.jpg",
+          "file_size": 296800,
+          "image_size": [
+            889,
+            705
+          ],
+          "confidence": 0.072,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0016.jpg",
+          "file_name": "unrelated_image_0016.jpg",
+          "file_size": 375419,
+          "image_size": [
+            936,
+            360
+          ],
+          "confidence": 0.284,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0017.jpg",
+          "file_name": "unrelated_image_0017.jpg",
+          "file_size": 95433,
+          "image_size": [
+            421,
+            752
+          ],
+          "confidence": 0.142,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0018.jpg",
+          "file_name": "unrelated_image_0018.jpg",
+          "file_size": 246443,
+          "image_size": [
+            839,
+            457
+          ],
+          "confidence": 0.165,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0019.jpg",
+          "file_name": "unrelated_image_0019.jpg",
+          "file_size": 236656,
+          "image_size": [
+            1089,
+            514
+          ],
+          "confidence": 0.061,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0020.jpg",
+          "file_name": "unrelated_image_0020.jpg",
+          "file_size": 282858,
+          "image_size": [
+            725,
+            643
+          ],
+          "confidence": 0.236,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0021.jpg",
+          "file_name": "unrelated_image_0021.jpg",
+          "file_size": 64191,
+          "image_size": [
+            1070,
+            595
+          ],
+          "confidence": 0.295,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0022.jpg",
+          "file_name": "unrelated_image_0022.jpg",
+          "file_size": 402667,
+          "image_size": [
+            774,
+            565
+          ],
+          "confidence": 0.186,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0023.jpg",
+          "file_name": "unrelated_image_0023.jpg",
+          "file_size": 400278,
+          "image_size": [
+            1058,
+            731
+          ],
+          "confidence": 0.115,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0024.jpg",
+          "file_name": "unrelated_image_0024.jpg",
+          "file_size": 150623,
+          "image_size": [
+            1184,
+            462
+          ],
+          "confidence": 0.187,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0025.jpg",
+          "file_name": "unrelated_image_0025.jpg",
+          "file_size": 306633,
+          "image_size": [
+            1157,
+            754
+          ],
+          "confidence": 0.13,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0026.jpg",
+          "file_name": "unrelated_image_0026.jpg",
+          "file_size": 198263,
+          "image_size": [
+            851,
+            612
+          ],
+          "confidence": 0.107,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0027.jpg",
+          "file_name": "unrelated_image_0027.jpg",
+          "file_size": 175067,
+          "image_size": [
+            608,
+            335
+          ],
+          "confidence": 0.285,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0028.jpg",
+          "file_name": "unrelated_image_0028.jpg",
+          "file_size": 277473,
+          "image_size": [
+            1041,
+            423
+          ],
+          "confidence": 0.139,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0029.jpg",
+          "file_name": "unrelated_image_0029.jpg",
+          "file_size": 461010,
+          "image_size": [
+            420,
+            668
+          ],
+          "confidence": 0.172,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0030.jpg",
+          "file_name": "unrelated_image_0030.jpg",
+          "file_size": 419101,
+          "image_size": [
+            1141,
+            454
+          ],
+          "confidence": 0.126,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0031.jpg",
+          "file_name": "unrelated_image_0031.jpg",
+          "file_size": 118174,
+          "image_size": [
+            519,
+            355
+          ],
+          "confidence": 0.283,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0032.jpg",
+          "file_name": "unrelated_image_0032.jpg",
+          "file_size": 419038,
+          "image_size": [
+            831,
+            509
+          ],
+          "confidence": 0.059,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.76
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0033.jpg",
+          "file_name": "unrelated_image_0033.jpg",
+          "file_size": 116824,
+          "image_size": [
+            476,
+            739
+          ],
+          "confidence": 0.238,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0034.jpg",
+          "file_name": "unrelated_image_0034.jpg",
+          "file_size": 385700,
+          "image_size": [
+            861,
+            790
+          ],
+          "confidence": 0.14,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0035.jpg",
+          "file_name": "unrelated_image_0035.jpg",
+          "file_size": 153004,
+          "image_size": [
+            755,
+            470
+          ],
+          "confidence": 0.165,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0036.jpg",
+          "file_name": "unrelated_image_0036.jpg",
+          "file_size": 387432,
+          "image_size": [
+            772,
+            520
+          ],
+          "confidence": 0.257,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0037.jpg",
+          "file_name": "unrelated_image_0037.jpg",
+          "file_size": 260146,
+          "image_size": [
+            929,
+            358
+          ],
+          "confidence": 0.221,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0038.jpg",
+          "file_name": "unrelated_image_0038.jpg",
+          "file_size": 148378,
+          "image_size": [
+            1059,
+            635
+          ],
+          "confidence": 0.167,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.75
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0039.jpg",
+          "file_name": "unrelated_image_0039.jpg",
+          "file_size": 234456,
+          "image_size": [
+            497,
+            418
+          ],
+          "confidence": 0.103,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0040.jpg",
+          "file_name": "unrelated_image_0040.jpg",
+          "file_size": 483726,
+          "image_size": [
+            605,
+            324
+          ],
+          "confidence": 0.115,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0041.jpg",
+          "file_name": "unrelated_image_0041.jpg",
+          "file_size": 428120,
+          "image_size": [
+            915,
+            339
+          ],
+          "confidence": 0.051,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0042.jpg",
+          "file_name": "unrelated_image_0042.jpg",
+          "file_size": 403469,
+          "image_size": [
+            920,
+            532
+          ],
+          "confidence": 0.147,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0043.jpg",
+          "file_name": "unrelated_image_0043.jpg",
+          "file_size": 95644,
+          "image_size": [
+            431,
+            416
+          ],
+          "confidence": 0.165,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0044.jpg",
+          "file_name": "unrelated_image_0044.jpg",
+          "file_size": 317476,
+          "image_size": [
+            839,
+            324
+          ],
+          "confidence": 0.184,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0045.jpg",
+          "file_name": "unrelated_image_0045.jpg",
+          "file_size": 200582,
+          "image_size": [
+            1023,
+            399
+          ],
+          "confidence": 0.295,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0046.jpg",
+          "file_name": "unrelated_image_0046.jpg",
+          "file_size": 146181,
+          "image_size": [
+            1073,
+            519
+          ],
+          "confidence": 0.134,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0047.jpg",
+          "file_name": "unrelated_image_0047.jpg",
+          "file_size": 412630,
+          "image_size": [
+            562,
+            716
+          ],
+          "confidence": 0.276,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0048.jpg",
+          "file_name": "unrelated_image_0048.jpg",
+          "file_size": 395875,
+          "image_size": [
+            1059,
+            636
+          ],
+          "confidence": 0.211,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0049.jpg",
+          "file_name": "unrelated_image_0049.jpg",
+          "file_size": 412325,
+          "image_size": [
+            802,
+            367
+          ],
+          "confidence": 0.252,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0050.jpg",
+          "file_name": "unrelated_image_0050.jpg",
+          "file_size": 331825,
+          "image_size": [
+            531,
+            609
+          ],
+          "confidence": 0.091,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0051.jpg",
+          "file_name": "unrelated_image_0051.jpg",
+          "file_size": 452947,
+          "image_size": [
+            1180,
+            318
+          ],
+          "confidence": 0.284,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0052.jpg",
+          "file_name": "unrelated_image_0052.jpg",
+          "file_size": 432496,
+          "image_size": [
+            924,
+            760
+          ],
+          "confidence": 0.115,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0053.jpg",
+          "file_name": "unrelated_image_0053.jpg",
+          "file_size": 125431,
+          "image_size": [
+            427,
+            530
+          ],
+          "confidence": 0.228,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0054.jpg",
+          "file_name": "unrelated_image_0054.jpg",
+          "file_size": 180289,
+          "image_size": [
+            573,
+            712
+          ],
+          "confidence": 0.188,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        }
+      ]
+    }
+  }
+}

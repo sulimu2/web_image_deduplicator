@@ -1,0 +1,4481 @@
+{
+  "summary": {
+    "target_ip": "微博",
+    "target_ip_count": 111,
+    "unrelated_count": 39,
+    "total_images": 150,
+    "similarity_threshold": 0.7,
+    "processing_time": "13.1秒",
+    "scan_time": "2025-10-03T14:36:18.626923"
+  },
+  "detailed_results": {
+    "微博": {
+      "count": 111,
+      "average_confidence": 0.77,
+      "images": [
+        {
+          "file_path": "/demo/images/微博/image_0000.jpg",
+          "file_name": "微博_image_0000.jpg",
+          "file_size": 301179,
+          "image_size": [
+            1167,
+            574
+          ],
+          "confidence": 0.897,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0001.jpg",
+          "file_name": "微博_image_0001.jpg",
+          "file_size": 223237,
+          "image_size": [
+            804,
+            571
+          ],
+          "confidence": 0.675,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0002.jpg",
+          "file_name": "微博_image_0002.jpg",
+          "file_size": 349312,
+          "image_size": [
+            1019,
+            562
+          ],
+          "confidence": 0.769,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "边框",
+              "confidence": 0.41
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0003.jpg",
+          "file_name": "微博_image_0003.jpg",
+          "file_size": 165212,
+          "image_size": [
+            822,
+            388
+          ],
+          "confidence": 0.831,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0004.jpg",
+          "file_name": "微博_image_0004.jpg",
+          "file_size": 161863,
+          "image_size": [
+            627,
+            668
+          ],
+          "confidence": 0.633,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0005.jpg",
+          "file_name": "微博_image_0005.jpg",
+          "file_size": 489146,
+          "image_size": [
+            874,
+            592
+          ],
+          "confidence": 0.604,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0006.jpg",
+          "file_name": "微博_image_0006.jpg",
+          "file_size": 458931,
+          "image_size": [
+            1179,
+            748
+          ],
+          "confidence": 0.904,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0007.jpg",
+          "file_name": "微博_image_0007.jpg",
+          "file_size": 330022,
+          "image_size": [
+            819,
+            430
+          ],
+          "confidence": 0.814,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.63
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0008.jpg",
+          "file_name": "微博_image_0008.jpg",
+          "file_size": 305068,
+          "image_size": [
+            446,
+            385
+          ],
+          "confidence": 0.772,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0009.jpg",
+          "file_name": "微博_image_0009.jpg",
+          "file_size": 106964,
+          "image_size": [
+            624,
+            688
+          ],
+          "confidence": 0.918,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0010.jpg",
+          "file_name": "微博_image_0010.jpg",
+          "file_size": 186470,
+          "image_size": [
+            524,
+            619
+          ],
+          "confidence": 0.843,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0011.jpg",
+          "file_name": "微博_image_0011.jpg",
+          "file_size": 70642,
+          "image_size": [
+            500,
+            335
+          ],
+          "confidence": 0.819,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0012.jpg",
+          "file_name": "微博_image_0012.jpg",
+          "file_size": 108769,
+          "image_size": [
+            859,
+            578
+          ],
+          "confidence": 0.898,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "特效",
+              "confidence": 0.46
+            },
+            {
+              "label": "边框",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0013.jpg",
+          "file_name": "微博_image_0013.jpg",
+          "file_size": 114539,
+          "image_size": [
+            735,
+            324
+          ],
+          "confidence": 0.701,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0014.jpg",
+          "file_name": "微博_image_0014.jpg",
+          "file_size": 56691,
+          "image_size": [
+            884,
+            694
+          ],
+          "confidence": 0.881,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0015.jpg",
+          "file_name": "微博_image_0015.jpg",
+          "file_size": 297388,
+          "image_size": [
+            1032,
+            350
+          ],
+          "confidence": 0.623,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0016.jpg",
+          "file_name": "微博_image_0016.jpg",
+          "file_size": 63741,
+          "image_size": [
+            729,
+            346
+          ],
+          "confidence": 0.729,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0017.jpg",
+          "file_name": "微博_image_0017.jpg",
+          "file_size": 499150,
+          "image_size": [
+            1124,
+            526
+          ],
+          "confidence": 0.843,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "边框",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0018.jpg",
+          "file_name": "微博_image_0018.jpg",
+          "file_size": 478642,
+          "image_size": [
+            896,
+            642
+          ],
+          "confidence": 0.774,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0019.jpg",
+          "file_name": "微博_image_0019.jpg",
+          "file_size": 88615,
+          "image_size": [
+            804,
+            420
+          ],
+          "confidence": 0.83,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            },
+            {
+              "label": "特效",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0020.jpg",
+          "file_name": "微博_image_0020.jpg",
+          "file_size": 375969,
+          "image_size": [
+            979,
+            528
+          ],
+          "confidence": 0.606,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            },
+            {
+              "label": "背景",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0021.jpg",
+          "file_name": "微博_image_0021.jpg",
+          "file_size": 50174,
+          "image_size": [
+            1126,
+            307
+          ],
+          "confidence": 0.613,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "边框",
+              "confidence": 0.63
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0022.jpg",
+          "file_name": "微博_image_0022.jpg",
+          "file_size": 248087,
+          "image_size": [
+            495,
+            582
+          ],
+          "confidence": 0.764,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.43
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0023.jpg",
+          "file_name": "微博_image_0023.jpg",
+          "file_size": 93265,
+          "image_size": [
+            535,
+            665
+          ],
+          "confidence": 0.789,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            },
+            {
+              "label": "特效",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0024.jpg",
+          "file_name": "微博_image_0024.jpg",
+          "file_size": 245020,
+          "image_size": [
+            414,
+            747
+          ],
+          "confidence": 0.908,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0025.jpg",
+          "file_name": "微博_image_0025.jpg",
+          "file_size": 273685,
+          "image_size": [
+            712,
+            708
+          ],
+          "confidence": 0.778,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0026.jpg",
+          "file_name": "微博_image_0026.jpg",
+          "file_size": 86964,
+          "image_size": [
+            887,
+            458
+          ],
+          "confidence": 0.827,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "背景",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0027.jpg",
+          "file_name": "微博_image_0027.jpg",
+          "file_size": 435359,
+          "image_size": [
+            1178,
+            733
+          ],
+          "confidence": 0.85,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0028.jpg",
+          "file_name": "微博_image_0028.jpg",
+          "file_size": 417236,
+          "image_size": [
+            550,
+            342
+          ],
+          "confidence": 0.945,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0029.jpg",
+          "file_name": "微博_image_0029.jpg",
+          "file_size": 296477,
+          "image_size": [
+            1168,
+            709
+          ],
+          "confidence": 0.726,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0030.jpg",
+          "file_name": "微博_image_0030.jpg",
+          "file_size": 313602,
+          "image_size": [
+            830,
+            470
+          ],
+          "confidence": 0.703,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0031.jpg",
+          "file_name": "微博_image_0031.jpg",
+          "file_size": 90522,
+          "image_size": [
+            1103,
+            769
+          ],
+          "confidence": 0.789,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0032.jpg",
+          "file_name": "微博_image_0032.jpg",
+          "file_size": 322498,
+          "image_size": [
+            462,
+            304
+          ],
+          "confidence": 0.764,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0033.jpg",
+          "file_name": "微博_image_0033.jpg",
+          "file_size": 151953,
+          "image_size": [
+            1171,
+            608
+          ],
+          "confidence": 0.68,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0034.jpg",
+          "file_name": "微博_image_0034.jpg",
+          "file_size": 413305,
+          "image_size": [
+            1165,
+            593
+          ],
+          "confidence": 0.791,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0035.jpg",
+          "file_name": "微博_image_0035.jpg",
+          "file_size": 198938,
+          "image_size": [
+            1198,
+            463
+          ],
+          "confidence": 0.949,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0036.jpg",
+          "file_name": "微博_image_0036.jpg",
+          "file_size": 131047,
+          "image_size": [
+            800,
+            783
+          ],
+          "confidence": 0.766,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0037.jpg",
+          "file_name": "微博_image_0037.jpg",
+          "file_size": 100544,
+          "image_size": [
+            586,
+            381
+          ],
+          "confidence": 0.664,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "边框",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0038.jpg",
+          "file_name": "微博_image_0038.jpg",
+          "file_size": 454321,
+          "image_size": [
+            1185,
+            508
+          ],
+          "confidence": 0.709,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.69
+            },
+            {
+              "label": "边框",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0039.jpg",
+          "file_name": "微博_image_0039.jpg",
+          "file_size": 118135,
+          "image_size": [
+            1041,
+            510
+          ],
+          "confidence": 0.726,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0040.jpg",
+          "file_name": "微博_image_0040.jpg",
+          "file_size": 391277,
+          "image_size": [
+            995,
+            376
+          ],
+          "confidence": 0.637,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0041.jpg",
+          "file_name": "微博_image_0041.jpg",
+          "file_size": 254734,
+          "image_size": [
+            1100,
+            303
+          ],
+          "confidence": 0.685,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "特效",
+              "confidence": 0.5
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0042.jpg",
+          "file_name": "微博_image_0042.jpg",
+          "file_size": 178581,
+          "image_size": [
+            763,
+            797
+          ],
+          "confidence": 0.939,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0043.jpg",
+          "file_name": "微博_image_0043.jpg",
+          "file_size": 93829,
+          "image_size": [
+            983,
+            734
+          ],
+          "confidence": 0.797,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0044.jpg",
+          "file_name": "微博_image_0044.jpg",
+          "file_size": 493154,
+          "image_size": [
+            589,
+            352
+          ],
+          "confidence": 0.838,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0045.jpg",
+          "file_name": "微博_image_0045.jpg",
+          "file_size": 396400,
+          "image_size": [
+            804,
+            313
+          ],
+          "confidence": 0.886,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0046.jpg",
+          "file_name": "微博_image_0046.jpg",
+          "file_size": 148194,
+          "image_size": [
+            940,
+            722
+          ],
+          "confidence": 0.656,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0047.jpg",
+          "file_name": "微博_image_0047.jpg",
+          "file_size": 252900,
+          "image_size": [
+            1098,
+            578
+          ],
+          "confidence": 0.842,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0048.jpg",
+          "file_name": "微博_image_0048.jpg",
+          "file_size": 475102,
+          "image_size": [
+            509,
+            620
+          ],
+          "confidence": 0.659,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            },
+            {
+              "label": "边框",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0049.jpg",
+          "file_name": "微博_image_0049.jpg",
+          "file_size": 183971,
+          "image_size": [
+            1109,
+            571
+          ],
+          "confidence": 0.667,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0050.jpg",
+          "file_name": "微博_image_0050.jpg",
+          "file_size": 107518,
+          "image_size": [
+            695,
+            538
+          ],
+          "confidence": 0.761,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.68
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0051.jpg",
+          "file_name": "微博_image_0051.jpg",
+          "file_size": 324628,
+          "image_size": [
+            1118,
+            644
+          ],
+          "confidence": 0.609,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0052.jpg",
+          "file_name": "微博_image_0052.jpg",
+          "file_size": 176347,
+          "image_size": [
+            619,
+            546
+          ],
+          "confidence": 0.93,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0053.jpg",
+          "file_name": "微博_image_0053.jpg",
+          "file_size": 304573,
+          "image_size": [
+            1050,
+            793
+          ],
+          "confidence": 0.872,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0054.jpg",
+          "file_name": "微博_image_0054.jpg",
+          "file_size": 371871,
+          "image_size": [
+            423,
+            675
+          ],
+          "confidence": 0.889,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0055.jpg",
+          "file_name": "微博_image_0055.jpg",
+          "file_size": 214582,
+          "image_size": [
+            1144,
+            433
+          ],
+          "confidence": 0.609,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0056.jpg",
+          "file_name": "微博_image_0056.jpg",
+          "file_size": 359996,
+          "image_size": [
+            428,
+            738
+          ],
+          "confidence": 0.767,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0057.jpg",
+          "file_name": "微博_image_0057.jpg",
+          "file_size": 292064,
+          "image_size": [
+            911,
+            436
+          ],
+          "confidence": 0.702,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.49
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0058.jpg",
+          "file_name": "微博_image_0058.jpg",
+          "file_size": 497319,
+          "image_size": [
+            693,
+            611
+          ],
+          "confidence": 0.849,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "背景",
+              "confidence": 0.56
+            },
+            {
+              "label": "边框",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0059.jpg",
+          "file_name": "微博_image_0059.jpg",
+          "file_size": 255992,
+          "image_size": [
+            1004,
+            405
+          ],
+          "confidence": 0.924,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0060.jpg",
+          "file_name": "微博_image_0060.jpg",
+          "file_size": 471222,
+          "image_size": [
+            715,
+            314
+          ],
+          "confidence": 0.643,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0061.jpg",
+          "file_name": "微博_image_0061.jpg",
+          "file_size": 140506,
+          "image_size": [
+            701,
+            560
+          ],
+          "confidence": 0.754,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0062.jpg",
+          "file_name": "微博_image_0062.jpg",
+          "file_size": 107068,
+          "image_size": [
+            1010,
+            713
+          ],
+          "confidence": 0.937,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0063.jpg",
+          "file_name": "微博_image_0063.jpg",
+          "file_size": 172571,
+          "image_size": [
+            1049,
+            621
+          ],
+          "confidence": 0.66,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0064.jpg",
+          "file_name": "微博_image_0064.jpg",
+          "file_size": 148694,
+          "image_size": [
+            482,
+            489
+          ],
+          "confidence": 0.878,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0065.jpg",
+          "file_name": "微博_image_0065.jpg",
+          "file_size": 499594,
+          "image_size": [
+            697,
+            779
+          ],
+          "confidence": 0.906,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0066.jpg",
+          "file_name": "微博_image_0066.jpg",
+          "file_size": 319006,
+          "image_size": [
+            476,
+            528
+          ],
+          "confidence": 0.738,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0067.jpg",
+          "file_name": "微博_image_0067.jpg",
+          "file_size": 185178,
+          "image_size": [
+            962,
+            413
+          ],
+          "confidence": 0.85,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0068.jpg",
+          "file_name": "微博_image_0068.jpg",
+          "file_size": 95461,
+          "image_size": [
+            605,
+            378
+          ],
+          "confidence": 0.924,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0069.jpg",
+          "file_name": "微博_image_0069.jpg",
+          "file_size": 404887,
+          "image_size": [
+            1181,
+            485
+          ],
+          "confidence": 0.667,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0070.jpg",
+          "file_name": "微博_image_0070.jpg",
+          "file_size": 295516,
+          "image_size": [
+            448,
+            444
+          ],
+          "confidence": 0.89,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0071.jpg",
+          "file_name": "微博_image_0071.jpg",
+          "file_size": 400041,
+          "image_size": [
+            489,
+            667
+          ],
+          "confidence": 0.639,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0072.jpg",
+          "file_name": "微博_image_0072.jpg",
+          "file_size": 347211,
+          "image_size": [
+            443,
+            721
+          ],
+          "confidence": 0.731,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0073.jpg",
+          "file_name": "微博_image_0073.jpg",
+          "file_size": 102508,
+          "image_size": [
+            434,
+            655
+          ],
+          "confidence": 0.849,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "特效",
+              "confidence": 0.44
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0074.jpg",
+          "file_name": "微博_image_0074.jpg",
+          "file_size": 281130,
+          "image_size": [
+            796,
+            343
+          ],
+          "confidence": 0.895,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "边框",
+              "confidence": 0.43
+            },
+            {
+              "label": "背景",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0075.jpg",
+          "file_name": "微博_image_0075.jpg",
+          "file_size": 410589,
+          "image_size": [
+            641,
+            774
+          ],
+          "confidence": 0.919,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.64
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0076.jpg",
+          "file_name": "微博_image_0076.jpg",
+          "file_size": 264615,
+          "image_size": [
+            1145,
+            315
+          ],
+          "confidence": 0.663,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0077.jpg",
+          "file_name": "微博_image_0077.jpg",
+          "file_size": 419110,
+          "image_size": [
+            1044,
+            787
+          ],
+          "confidence": 0.782,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "背景",
+              "confidence": 0.55
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0078.jpg",
+          "file_name": "微博_image_0078.jpg",
+          "file_size": 383827,
+          "image_size": [
+            433,
+            459
+          ],
+          "confidence": 0.612,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.7
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "特效",
+              "confidence": 0.48
+            },
+            {
+              "label": "边框",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0079.jpg",
+          "file_name": "微博_image_0079.jpg",
+          "file_size": 171745,
+          "image_size": [
+            907,
+            606
+          ],
+          "confidence": 0.869,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0080.jpg",
+          "file_name": "微博_image_0080.jpg",
+          "file_size": 247581,
+          "image_size": [
+            527,
+            745
+          ],
+          "confidence": 0.881,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0081.jpg",
+          "file_name": "微博_image_0081.jpg",
+          "file_size": 363850,
+          "image_size": [
+            560,
+            633
+          ],
+          "confidence": 0.883,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0082.jpg",
+          "file_name": "微博_image_0082.jpg",
+          "file_size": 374951,
+          "image_size": [
+            642,
+            786
+          ],
+          "confidence": 0.862,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.63
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0083.jpg",
+          "file_name": "微博_image_0083.jpg",
+          "file_size": 116779,
+          "image_size": [
+            990,
+            507
+          ],
+          "confidence": 0.825,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0084.jpg",
+          "file_name": "微博_image_0084.jpg",
+          "file_size": 307307,
+          "image_size": [
+            651,
+            306
+          ],
+          "confidence": 0.893,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0085.jpg",
+          "file_name": "微博_image_0085.jpg",
+          "file_size": 92468,
+          "image_size": [
+            513,
+            429
+          ],
+          "confidence": 0.699,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0086.jpg",
+          "file_name": "微博_image_0086.jpg",
+          "file_size": 488494,
+          "image_size": [
+            514,
+            388
+          ],
+          "confidence": 0.859,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0087.jpg",
+          "file_name": "微博_image_0087.jpg",
+          "file_size": 211465,
+          "image_size": [
+            723,
+            638
+          ],
+          "confidence": 0.718,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "背景",
+              "confidence": 0.7
+            },
+            {
+              "label": "特效",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0088.jpg",
+          "file_name": "微博_image_0088.jpg",
+          "file_size": 288625,
+          "image_size": [
+            448,
+            376
+          ],
+          "confidence": 0.708,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "边框",
+              "confidence": 0.69
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0089.jpg",
+          "file_name": "微博_image_0089.jpg",
+          "file_size": 295866,
+          "image_size": [
+            923,
+            405
+          ],
+          "confidence": 0.688,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            },
+            {
+              "label": "特效",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0090.jpg",
+          "file_name": "微博_image_0090.jpg",
+          "file_size": 78049,
+          "image_size": [
+            567,
+            562
+          ],
+          "confidence": 0.909,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0091.jpg",
+          "file_name": "微博_image_0091.jpg",
+          "file_size": 189568,
+          "image_size": [
+            570,
+            667
+          ],
+          "confidence": 0.75,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.43
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0092.jpg",
+          "file_name": "微博_image_0092.jpg",
+          "file_size": 100262,
+          "image_size": [
+            1185,
+            492
+          ],
+          "confidence": 0.724,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.57
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0093.jpg",
+          "file_name": "微博_image_0093.jpg",
+          "file_size": 227502,
+          "image_size": [
+            560,
+            747
+          ],
+          "confidence": 0.83,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0094.jpg",
+          "file_name": "微博_image_0094.jpg",
+          "file_size": 482446,
+          "image_size": [
+            778,
+            346
+          ],
+          "confidence": 0.667,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0095.jpg",
+          "file_name": "微博_image_0095.jpg",
+          "file_size": 144132,
+          "image_size": [
+            1115,
+            589
+          ],
+          "confidence": 0.702,
+          "best_match": "微博话题",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博话题"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0096.jpg",
+          "file_name": "微博_image_0096.jpg",
+          "file_size": 493089,
+          "image_size": [
+            1119,
+            445
+          ],
+          "confidence": 0.639,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.82
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0097.jpg",
+          "file_name": "微博_image_0097.jpg",
+          "file_size": 464082,
+          "image_size": [
+            876,
+            702
+          ],
+          "confidence": 0.914,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            },
+            {
+              "label": "背景",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0098.jpg",
+          "file_name": "微博_image_0098.jpg",
+          "file_size": 454448,
+          "image_size": [
+            741,
+            579
+          ],
+          "confidence": 0.875,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0099.jpg",
+          "file_name": "微博_image_0099.jpg",
+          "file_size": 297523,
+          "image_size": [
+            722,
+            768
+          ],
+          "confidence": 0.661,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "边框",
+              "confidence": 0.5
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0100.jpg",
+          "file_name": "微博_image_0100.jpg",
+          "file_size": 112102,
+          "image_size": [
+            1111,
+            689
+          ],
+          "confidence": 0.698,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.5
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0101.jpg",
+          "file_name": "微博_image_0101.jpg",
+          "file_size": 429630,
+          "image_size": [
+            748,
+            488
+          ],
+          "confidence": 0.676,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.69
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0102.jpg",
+          "file_name": "微博_image_0102.jpg",
+          "file_size": 437791,
+          "image_size": [
+            934,
+            367
+          ],
+          "confidence": 0.819,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "边框",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0103.jpg",
+          "file_name": "微博_image_0103.jpg",
+          "file_size": 63961,
+          "image_size": [
+            979,
+            478
+          ],
+          "confidence": 0.693,
+          "best_match": "微博热搜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博热搜"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0104.jpg",
+          "file_name": "微博_image_0104.jpg",
+          "file_size": 296168,
+          "image_size": [
+            851,
+            334
+          ],
+          "confidence": 0.897,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0105.jpg",
+          "file_name": "微博_image_0105.jpg",
+          "file_size": 103041,
+          "image_size": [
+            996,
+            798
+          ],
+          "confidence": 0.899,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0106.jpg",
+          "file_name": "微博_image_0106.jpg",
+          "file_size": 222776,
+          "image_size": [
+            613,
+            430
+          ],
+          "confidence": 0.709,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "背景",
+              "confidence": 0.48
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0107.jpg",
+          "file_name": "微博_image_0107.jpg",
+          "file_size": 129188,
+          "image_size": [
+            1172,
+            432
+          ],
+          "confidence": 0.697,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.75
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            },
+            {
+              "label": "特效",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0108.jpg",
+          "file_name": "微博_image_0108.jpg",
+          "file_size": 72241,
+          "image_size": [
+            443,
+            341
+          ],
+          "confidence": 0.702,
+          "best_match": "微博转发",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博转发"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0109.jpg",
+          "file_name": "微博_image_0109.jpg",
+          "file_size": 366407,
+          "image_size": [
+            704,
+            800
+          ],
+          "confidence": 0.762,
+          "best_match": "微博表情",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博表情"
+        },
+        {
+          "file_path": "/demo/images/微博/image_0110.jpg",
+          "file_name": "微博_image_0110.jpg",
+          "file_size": 105802,
+          "image_size": [
+            484,
+            405
+          ],
+          "confidence": 0.783,
+          "best_match": "微博大V",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到微博特征: 微博大V"
+        }
+      ]
+    },
+    "unrelated": {
+      "count": 39,
+      "average_confidence": 0.1,
+      "images": [
+        {
+          "file_path": "/demo/images/unrelated/image_0000.jpg",
+          "file_name": "unrelated_image_0000.jpg",
+          "file_size": 185323,
+          "image_size": [
+            1185,
+            579
+          ],
+          "confidence": 0.292,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0001.jpg",
+          "file_name": "unrelated_image_0001.jpg",
+          "file_size": 408287,
+          "image_size": [
+            552,
+            353
+          ],
+          "confidence": 0.155,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0002.jpg",
+          "file_name": "unrelated_image_0002.jpg",
+          "file_size": 84796,
+          "image_size": [
+            1022,
+            595
+          ],
+          "confidence": 0.053,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0003.jpg",
+          "file_name": "unrelated_image_0003.jpg",
+          "file_size": 335794,
+          "image_size": [
+            945,
+            614
+          ],
+          "confidence": 0.295,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0004.jpg",
+          "file_name": "unrelated_image_0004.jpg",
+          "file_size": 416889,
+          "image_size": [
+            1005,
+            580
+          ],
+          "confidence": 0.215,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0005.jpg",
+          "file_name": "unrelated_image_0005.jpg",
+          "file_size": 446429,
+          "image_size": [
+            894,
+            422
+          ],
+          "confidence": 0.234,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0006.jpg",
+          "file_name": "unrelated_image_0006.jpg",
+          "file_size": 243970,
+          "image_size": [
+            988,
+            390
+          ],
+          "confidence": 0.142,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0007.jpg",
+          "file_name": "unrelated_image_0007.jpg",
+          "file_size": 73364,
+          "image_size": [
+            1193,
+            346
+          ],
+          "confidence": 0.265,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0008.jpg",
+          "file_name": "unrelated_image_0008.jpg",
+          "file_size": 376835,
+          "image_size": [
+            472,
+            780
+          ],
+          "confidence": 0.117,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0009.jpg",
+          "file_name": "unrelated_image_0009.jpg",
+          "file_size": 151418,
+          "image_size": [
+            579,
+            442
+          ],
+          "confidence": 0.066,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0010.jpg",
+          "file_name": "unrelated_image_0010.jpg",
+          "file_size": 264092,
+          "image_size": [
+            542,
+            321
+          ],
+          "confidence": 0.163,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0011.jpg",
+          "file_name": "unrelated_image_0011.jpg",
+          "file_size": 274437,
+          "image_size": [
+            1013,
+            765
+          ],
+          "confidence": 0.052,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0012.jpg",
+          "file_name": "unrelated_image_0012.jpg",
+          "file_size": 471483,
+          "image_size": [
+            650,
+            696
+          ],
+          "confidence": 0.077,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0013.jpg",
+          "file_name": "unrelated_image_0013.jpg",
+          "file_size": 281782,
+          "image_size": [
+            480,
+            733
+          ],
+          "confidence": 0.21,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0014.jpg",
+          "file_name": "unrelated_image_0014.jpg",
+          "file_size": 194932,
+          "image_size": [
+            588,
+            490
+          ],
+          "confidence": 0.181,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.76
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0015.jpg",
+          "file_name": "unrelated_image_0015.jpg",
+          "file_size": 238707,
+          "image_size": [
+            1046,
+            566
+          ],
+          "confidence": 0.111,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0016.jpg",
+          "file_name": "unrelated_image_0016.jpg",
+          "file_size": 76356,
+          "image_size": [
+            872,
+            481
+          ],
+          "confidence": 0.142,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0017.jpg",
+          "file_name": "unrelated_image_0017.jpg",
+          "file_size": 197275,
+          "image_size": [
+            995,
+            733
+          ],
+          "confidence": 0.291,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0018.jpg",
+          "file_name": "unrelated_image_0018.jpg",
+          "file_size": 275150,
+          "image_size": [
+            645,
+            405
+          ],
+          "confidence": 0.276,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0019.jpg",
+          "file_name": "unrelated_image_0019.jpg",
+          "file_size": 183503,
+          "image_size": [
+            1126,
+            726
+          ],
+          "confidence": 0.108,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0020.jpg",
+          "file_name": "unrelated_image_0020.jpg",
+          "file_size": 329121,
+          "image_size": [
+            1066,
+            540
+          ],
+          "confidence": 0.161,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0021.jpg",
+          "file_name": "unrelated_image_0021.jpg",
+          "file_size": 220544,
+          "image_size": [
+            1156,
+            742
+          ],
+          "confidence": 0.256,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0022.jpg",
+          "file_name": "unrelated_image_0022.jpg",
+          "file_size": 229492,
+          "image_size": [
+            699,
+            633
+          ],
+          "confidence": 0.145,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0023.jpg",
+          "file_name": "unrelated_image_0023.jpg",
+          "file_size": 150314,
+          "image_size": [
+            1094,
+            531
+          ],
+          "confidence": 0.28,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0024.jpg",
+          "file_name": "unrelated_image_0024.jpg",
+          "file_size": 415500,
+          "image_size": [
+            954,
+            648
+          ],
+          "confidence": 0.112,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0025.jpg",
+          "file_name": "unrelated_image_0025.jpg",
+          "file_size": 217706,
+          "image_size": [
+            938,
+            786
+          ],
+          "confidence": 0.163,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0026.jpg",
+          "file_name": "unrelated_image_0026.jpg",
+          "file_size": 141531,
+          "image_size": [
+            408,
+            773
+          ],
+          "confidence": 0.053,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0027.jpg",
+          "file_name": "unrelated_image_0027.jpg",
+          "file_size": 385251,
+          "image_size": [
+            1076,
+            386
+          ],
+          "confidence": 0.101,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0028.jpg",
+          "file_name": "unrelated_image_0028.jpg",
+          "file_size": 368759,
+          "image_size": [
+            591,
+            393
+          ],
+          "confidence": 0.131,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0029.jpg",
+          "file_name": "unrelated_image_0029.jpg",
+          "file_size": 236298,
+          "image_size": [
+            687,
+            353
+          ],
+          "confidence": 0.091,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0030.jpg",
+          "file_name": "unrelated_image_0030.jpg",
+          "file_size": 348977,
+          "image_size": [
+            978,
+            614
+          ],
+          "confidence": 0.155,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0031.jpg",
+          "file_name": "unrelated_image_0031.jpg",
+          "file_size": 72932,
+          "image_size": [
+            469,
+            560
+          ],
+          "confidence": 0.263,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.72
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0032.jpg",
+          "file_name": "unrelated_image_0032.jpg",
+          "file_size": 460577,
+          "image_size": [
+            511,
+            639
+          ],
+          "confidence": 0.189,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0033.jpg",
+          "file_name": "unrelated_image_0033.jpg",
+          "file_size": 356798,
+          "image_size": [
+            881,
+            587
+          ],
+          "confidence": 0.059,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0034.jpg",
+          "file_name": "unrelated_image_0034.jpg",
+          "file_size": 325507,
+          "image_size": [
+            443,
+            466
+          ],
+          "confidence": 0.231,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0035.jpg",
+          "file_name": "unrelated_image_0035.jpg",
+          "file_size": 498823,
+          "image_size": [
+            439,
+            430
+          ],
+          "confidence": 0.159,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0036.jpg",
+          "file_name": "unrelated_image_0036.jpg",
+          "file_size": 125127,
+          "image_size": [
+            850,
+            710
+          ],
+          "confidence": 0.158,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0037.jpg",
+          "file_name": "unrelated_image_0037.jpg",
+          "file_size": 389967,
+          "image_size": [
+            473,
+            312
+          ],
+          "confidence": 0.211,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0038.jpg",
+          "file_name": "unrelated_image_0038.jpg",
+          "file_size": 292537,
+          "image_size": [
+            433,
+            322
+          ],
+          "confidence": 0.095,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.7
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        }
+      ]
+    }
+  }
+}

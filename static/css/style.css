@@ -422,6 +422,9 @@ body {
     margin-bottom: 10px;
     border-left: 4px solid;
     animation: slideIn 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .toast.success {
@@ -436,6 +439,10 @@ body {
     border-left-color: #ed8936;
 }
 
+.toast.info {
+    border-left-color: #4299e1;
+}
+
 @keyframes slideIn {
     from {
         transform: translateX(100%);
@@ -445,6 +452,76 @@ body {
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+/* IP分类系统样式增强 */
+.navigation-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border: 2px solid #667eea;
+    border-radius: 8px;
+    background: white;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav-btn:hover {
+    background: #667eea;
+    color: white;
+}
+
+.nav-btn.active {
+    background: #667eea;
+    color: white;
+}
+
+/* 功能切换面板 */
+.feature-switcher {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.feature-tab {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background: #f7fafc;
+    color: #4a5568;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.feature-tab.active {
+    background: #667eea;
+    color: white;
+}
+
+.feature-tab:hover:not(.active) {
+    background: #e2e8f0;
+}
+
+.feature-content {
+    display: none;
+}
+
+.feature-content.active {
+    display: block;
 }
 
 /* 响应式设计 */

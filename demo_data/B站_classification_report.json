@@ -1,0 +1,4293 @@
+{
+  "summary": {
+    "target_ip": "B站",
+    "target_ip_count": 94,
+    "unrelated_count": 56,
+    "total_images": 150,
+    "similarity_threshold": 0.7,
+    "processing_time": "8.8秒",
+    "scan_time": "2025-10-03T14:36:18.633696"
+  },
+  "detailed_results": {
+    "B站": {
+      "count": 94,
+      "average_confidence": 0.86,
+      "images": [
+        {
+          "file_path": "/demo/images/B站/image_0000.jpg",
+          "file_name": "B站_image_0000.jpg",
+          "file_size": 366106,
+          "image_size": [
+            835,
+            398
+          ],
+          "confidence": 0.607,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0001.jpg",
+          "file_name": "B站_image_0001.jpg",
+          "file_size": 330099,
+          "image_size": [
+            626,
+            393
+          ],
+          "confidence": 0.812,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            },
+            {
+              "label": "背景",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0002.jpg",
+          "file_name": "B站_image_0002.jpg",
+          "file_size": 287213,
+          "image_size": [
+            1043,
+            632
+          ],
+          "confidence": 0.828,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.51
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0003.jpg",
+          "file_name": "B站_image_0003.jpg",
+          "file_size": 64001,
+          "image_size": [
+            912,
+            527
+          ],
+          "confidence": 0.719,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "背景",
+              "confidence": 0.45
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0004.jpg",
+          "file_name": "B站_image_0004.jpg",
+          "file_size": 94432,
+          "image_size": [
+            444,
+            399
+          ],
+          "confidence": 0.611,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.63
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0005.jpg",
+          "file_name": "B站_image_0005.jpg",
+          "file_size": 127094,
+          "image_size": [
+            741,
+            765
+          ],
+          "confidence": 0.93,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0006.jpg",
+          "file_name": "B站_image_0006.jpg",
+          "file_size": 256673,
+          "image_size": [
+            476,
+            343
+          ],
+          "confidence": 0.61,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0007.jpg",
+          "file_name": "B站_image_0007.jpg",
+          "file_size": 191286,
+          "image_size": [
+            754,
+            674
+          ],
+          "confidence": 0.657,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0008.jpg",
+          "file_name": "B站_image_0008.jpg",
+          "file_size": 233025,
+          "image_size": [
+            529,
+            749
+          ],
+          "confidence": 0.926,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.85
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0009.jpg",
+          "file_name": "B站_image_0009.jpg",
+          "file_size": 164791,
+          "image_size": [
+            883,
+            350
+          ],
+          "confidence": 0.904,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.45
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0010.jpg",
+          "file_name": "B站_image_0010.jpg",
+          "file_size": 360983,
+          "image_size": [
+            1052,
+            300
+          ],
+          "confidence": 0.616,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0011.jpg",
+          "file_name": "B站_image_0011.jpg",
+          "file_size": 101537,
+          "image_size": [
+            861,
+            414
+          ],
+          "confidence": 0.892,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0012.jpg",
+          "file_name": "B站_image_0012.jpg",
+          "file_size": 443858,
+          "image_size": [
+            1128,
+            426
+          ],
+          "confidence": 0.719,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            },
+            {
+              "label": "特效",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0013.jpg",
+          "file_name": "B站_image_0013.jpg",
+          "file_size": 354853,
+          "image_size": [
+            722,
+            618
+          ],
+          "confidence": 0.702,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0014.jpg",
+          "file_name": "B站_image_0014.jpg",
+          "file_size": 52450,
+          "image_size": [
+            774,
+            562
+          ],
+          "confidence": 0.902,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            },
+            {
+              "label": "边框",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0015.jpg",
+          "file_name": "B站_image_0015.jpg",
+          "file_size": 406085,
+          "image_size": [
+            624,
+            352
+          ],
+          "confidence": 0.684,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.63
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0016.jpg",
+          "file_name": "B站_image_0016.jpg",
+          "file_size": 453744,
+          "image_size": [
+            1081,
+            605
+          ],
+          "confidence": 0.708,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.83
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "特效",
+              "confidence": 0.53
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.49
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0017.jpg",
+          "file_name": "B站_image_0017.jpg",
+          "file_size": 223408,
+          "image_size": [
+            643,
+            612
+          ],
+          "confidence": 0.855,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "背景",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0018.jpg",
+          "file_name": "B站_image_0018.jpg",
+          "file_size": 178888,
+          "image_size": [
+            1003,
+            320
+          ],
+          "confidence": 0.927,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0019.jpg",
+          "file_name": "B站_image_0019.jpg",
+          "file_size": 364318,
+          "image_size": [
+            696,
+            701
+          ],
+          "confidence": 0.903,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.9
+            },
+            {
+              "label": "图标",
+              "confidence": 0.7
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0020.jpg",
+          "file_name": "B站_image_0020.jpg",
+          "file_size": 351671,
+          "image_size": [
+            476,
+            485
+          ],
+          "confidence": 0.876,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.88
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0021.jpg",
+          "file_name": "B站_image_0021.jpg",
+          "file_size": 336316,
+          "image_size": [
+            824,
+            417
+          ],
+          "confidence": 0.844,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            },
+            {
+              "label": "特效",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0022.jpg",
+          "file_name": "B站_image_0022.jpg",
+          "file_size": 248401,
+          "image_size": [
+            527,
+            324
+          ],
+          "confidence": 0.87,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "特效",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0023.jpg",
+          "file_name": "B站_image_0023.jpg",
+          "file_size": 374234,
+          "image_size": [
+            629,
+            784
+          ],
+          "confidence": 0.732,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.68
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0024.jpg",
+          "file_name": "B站_image_0024.jpg",
+          "file_size": 209080,
+          "image_size": [
+            577,
+            357
+          ],
+          "confidence": 0.846,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            },
+            {
+              "label": "特效",
+              "confidence": 0.63
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0025.jpg",
+          "file_name": "B站_image_0025.jpg",
+          "file_size": 430314,
+          "image_size": [
+            828,
+            745
+          ],
+          "confidence": 0.674,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0026.jpg",
+          "file_name": "B站_image_0026.jpg",
+          "file_size": 114151,
+          "image_size": [
+            1097,
+            441
+          ],
+          "confidence": 0.737,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0027.jpg",
+          "file_name": "B站_image_0027.jpg",
+          "file_size": 107942,
+          "image_size": [
+            451,
+            425
+          ],
+          "confidence": 0.638,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0028.jpg",
+          "file_name": "B站_image_0028.jpg",
+          "file_size": 438848,
+          "image_size": [
+            905,
+            477
+          ],
+          "confidence": 0.894,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0029.jpg",
+          "file_name": "B站_image_0029.jpg",
+          "file_size": 95031,
+          "image_size": [
+            695,
+            420
+          ],
+          "confidence": 0.789,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0030.jpg",
+          "file_name": "B站_image_0030.jpg",
+          "file_size": 497146,
+          "image_size": [
+            608,
+            542
+          ],
+          "confidence": 0.6,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0031.jpg",
+          "file_name": "B站_image_0031.jpg",
+          "file_size": 434012,
+          "image_size": [
+            573,
+            528
+          ],
+          "confidence": 0.816,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.56
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0032.jpg",
+          "file_name": "B站_image_0032.jpg",
+          "file_size": 415920,
+          "image_size": [
+            1097,
+            509
+          ],
+          "confidence": 0.851,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0033.jpg",
+          "file_name": "B站_image_0033.jpg",
+          "file_size": 397170,
+          "image_size": [
+            908,
+            421
+          ],
+          "confidence": 0.9,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0034.jpg",
+          "file_name": "B站_image_0034.jpg",
+          "file_size": 107234,
+          "image_size": [
+            846,
+            769
+          ],
+          "confidence": 0.732,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "背景",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0035.jpg",
+          "file_name": "B站_image_0035.jpg",
+          "file_size": 375318,
+          "image_size": [
+            782,
+            751
+          ],
+          "confidence": 0.936,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.68
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "边框",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0036.jpg",
+          "file_name": "B站_image_0036.jpg",
+          "file_size": 384374,
+          "image_size": [
+            418,
+            310
+          ],
+          "confidence": 0.866,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.73
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            },
+            {
+              "label": "边框",
+              "confidence": 0.45
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0037.jpg",
+          "file_name": "B站_image_0037.jpg",
+          "file_size": 289887,
+          "image_size": [
+            625,
+            692
+          ],
+          "confidence": 0.645,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.43
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0038.jpg",
+          "file_name": "B站_image_0038.jpg",
+          "file_size": 218672,
+          "image_size": [
+            656,
+            763
+          ],
+          "confidence": 0.705,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "背景",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0039.jpg",
+          "file_name": "B站_image_0039.jpg",
+          "file_size": 153087,
+          "image_size": [
+            962,
+            453
+          ],
+          "confidence": 0.755,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "特效",
+              "confidence": 0.46
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0040.jpg",
+          "file_name": "B站_image_0040.jpg",
+          "file_size": 357415,
+          "image_size": [
+            835,
+            397
+          ],
+          "confidence": 0.942,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0041.jpg",
+          "file_name": "B站_image_0041.jpg",
+          "file_size": 154467,
+          "image_size": [
+            493,
+            544
+          ],
+          "confidence": 0.636,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            },
+            {
+              "label": "背景",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0042.jpg",
+          "file_name": "B站_image_0042.jpg",
+          "file_size": 233366,
+          "image_size": [
+            532,
+            672
+          ],
+          "confidence": 0.787,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0043.jpg",
+          "file_name": "B站_image_0043.jpg",
+          "file_size": 186503,
+          "image_size": [
+            737,
+            482
+          ],
+          "confidence": 0.673,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.42
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0044.jpg",
+          "file_name": "B站_image_0044.jpg",
+          "file_size": 132777,
+          "image_size": [
+            751,
+            506
+          ],
+          "confidence": 0.646,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "背景",
+              "confidence": 0.63
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0045.jpg",
+          "file_name": "B站_image_0045.jpg",
+          "file_size": 249668,
+          "image_size": [
+            906,
+            356
+          ],
+          "confidence": 0.662,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "背景",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0046.jpg",
+          "file_name": "B站_image_0046.jpg",
+          "file_size": 416414,
+          "image_size": [
+            742,
+            798
+          ],
+          "confidence": 0.714,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            },
+            {
+              "label": "背景",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0047.jpg",
+          "file_name": "B站_image_0047.jpg",
+          "file_size": 78189,
+          "image_size": [
+            1082,
+            656
+          ],
+          "confidence": 0.945,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0048.jpg",
+          "file_name": "B站_image_0048.jpg",
+          "file_size": 383288,
+          "image_size": [
+            464,
+            667
+          ],
+          "confidence": 0.773,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.88
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "特效",
+              "confidence": 0.54
+            },
+            {
+              "label": "特效",
+              "confidence": 0.48
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0049.jpg",
+          "file_name": "B站_image_0049.jpg",
+          "file_size": 62100,
+          "image_size": [
+            796,
+            344
+          ],
+          "confidence": 0.94,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            },
+            {
+              "label": "背景",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0050.jpg",
+          "file_name": "B站_image_0050.jpg",
+          "file_size": 317318,
+          "image_size": [
+            412,
+            516
+          ],
+          "confidence": 0.625,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.44
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0051.jpg",
+          "file_name": "B站_image_0051.jpg",
+          "file_size": 229333,
+          "image_size": [
+            457,
+            740
+          ],
+          "confidence": 0.663,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.76
+            },
+            {
+              "label": "背景",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0052.jpg",
+          "file_name": "B站_image_0052.jpg",
+          "file_size": 78947,
+          "image_size": [
+            905,
+            378
+          ],
+          "confidence": 0.847,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.95
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "背景",
+              "confidence": 0.59
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0053.jpg",
+          "file_name": "B站_image_0053.jpg",
+          "file_size": 420240,
+          "image_size": [
+            657,
+            468
+          ],
+          "confidence": 0.814,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            },
+            {
+              "label": "背景",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0054.jpg",
+          "file_name": "B站_image_0054.jpg",
+          "file_size": 99447,
+          "image_size": [
+            846,
+            471
+          ],
+          "confidence": 0.618,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.93
+            },
+            {
+              "label": "文字",
+              "confidence": 0.6
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.57
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0055.jpg",
+          "file_name": "B站_image_0055.jpg",
+          "file_size": 125870,
+          "image_size": [
+            1084,
+            314
+          ],
+          "confidence": 0.888,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0056.jpg",
+          "file_name": "B站_image_0056.jpg",
+          "file_size": 463492,
+          "image_size": [
+            443,
+            646
+          ],
+          "confidence": 0.713,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.84
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "特效",
+              "confidence": 0.69
+            },
+            {
+              "label": "背景",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0057.jpg",
+          "file_name": "B站_image_0057.jpg",
+          "file_size": 231570,
+          "image_size": [
+            740,
+            705
+          ],
+          "confidence": 0.9,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "特效",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0058.jpg",
+          "file_name": "B站_image_0058.jpg",
+          "file_size": 178036,
+          "image_size": [
+            623,
+            374
+          ],
+          "confidence": 0.617,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "背景",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0059.jpg",
+          "file_name": "B站_image_0059.jpg",
+          "file_size": 436595,
+          "image_size": [
+            706,
+            718
+          ],
+          "confidence": 0.853,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "特效",
+              "confidence": 0.66
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0060.jpg",
+          "file_name": "B站_image_0060.jpg",
+          "file_size": 456412,
+          "image_size": [
+            988,
+            691
+          ],
+          "confidence": 0.903,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.62
+            },
+            {
+              "label": "背景",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0061.jpg",
+          "file_name": "B站_image_0061.jpg",
+          "file_size": 206714,
+          "image_size": [
+            1103,
+            418
+          ],
+          "confidence": 0.695,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.66
+            },
+            {
+              "label": "背景",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0062.jpg",
+          "file_name": "B站_image_0062.jpg",
+          "file_size": 230508,
+          "image_size": [
+            1072,
+            411
+          ],
+          "confidence": 0.815,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            },
+            {
+              "label": "特效",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0063.jpg",
+          "file_name": "B站_image_0063.jpg",
+          "file_size": 432241,
+          "image_size": [
+            881,
+            743
+          ],
+          "confidence": 0.821,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.87
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0064.jpg",
+          "file_name": "B站_image_0064.jpg",
+          "file_size": 67285,
+          "image_size": [
+            953,
+            503
+          ],
+          "confidence": 0.944,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "边框",
+              "confidence": 0.52
+            },
+            {
+              "label": "边框",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0065.jpg",
+          "file_name": "B站_image_0065.jpg",
+          "file_size": 347359,
+          "image_size": [
+            1129,
+            629
+          ],
+          "confidence": 0.786,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.46
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0066.jpg",
+          "file_name": "B站_image_0066.jpg",
+          "file_size": 455889,
+          "image_size": [
+            669,
+            397
+          ],
+          "confidence": 0.727,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.66
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.41
+            },
+            {
+              "label": "边框",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0067.jpg",
+          "file_name": "B站_image_0067.jpg",
+          "file_size": 414355,
+          "image_size": [
+            1097,
+            462
+          ],
+          "confidence": 0.615,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.78
+            },
+            {
+              "label": "图标",
+              "confidence": 0.78
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0068.jpg",
+          "file_name": "B站_image_0068.jpg",
+          "file_size": 178726,
+          "image_size": [
+            1046,
+            583
+          ],
+          "confidence": 0.748,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.79
+            },
+            {
+              "label": "边框",
+              "confidence": 0.66
+            },
+            {
+              "label": "背景",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0069.jpg",
+          "file_name": "B站_image_0069.jpg",
+          "file_size": 388157,
+          "image_size": [
+            1079,
+            370
+          ],
+          "confidence": 0.826,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.71
+            },
+            {
+              "label": "背景",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0070.jpg",
+          "file_name": "B站_image_0070.jpg",
+          "file_size": 137582,
+          "image_size": [
+            572,
+            760
+          ],
+          "confidence": 0.681,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.83
+            },
+            {
+              "label": "特效",
+              "confidence": 0.51
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0071.jpg",
+          "file_name": "B站_image_0071.jpg",
+          "file_size": 382560,
+          "image_size": [
+            796,
+            626
+          ],
+          "confidence": 0.736,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.59
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0072.jpg",
+          "file_name": "B站_image_0072.jpg",
+          "file_size": 206380,
+          "image_size": [
+            1011,
+            797
+          ],
+          "confidence": 0.6,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.64
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0073.jpg",
+          "file_name": "B站_image_0073.jpg",
+          "file_size": 159326,
+          "image_size": [
+            946,
+            795
+          ],
+          "confidence": 0.912,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.65
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "边框",
+              "confidence": 0.48
+            },
+            {
+              "label": "边框",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0074.jpg",
+          "file_name": "B站_image_0074.jpg",
+          "file_size": 173481,
+          "image_size": [
+            425,
+            740
+          ],
+          "confidence": 0.695,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            },
+            {
+              "label": "背景",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0075.jpg",
+          "file_name": "B站_image_0075.jpg",
+          "file_size": 389464,
+          "image_size": [
+            968,
+            590
+          ],
+          "confidence": 0.757,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.73
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.42
+            },
+            {
+              "label": "特效",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0076.jpg",
+          "file_name": "B站_image_0076.jpg",
+          "file_size": 107305,
+          "image_size": [
+            611,
+            509
+          ],
+          "confidence": 0.819,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.8
+            },
+            {
+              "label": "文字",
+              "confidence": 0.77
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0077.jpg",
+          "file_name": "B站_image_0077.jpg",
+          "file_size": 345265,
+          "image_size": [
+            665,
+            616
+          ],
+          "confidence": 0.67,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.79
+            },
+            {
+              "label": "图标",
+              "confidence": 0.81
+            },
+            {
+              "label": "特效",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0078.jpg",
+          "file_name": "B站_image_0078.jpg",
+          "file_size": 346128,
+          "image_size": [
+            1079,
+            502
+          ],
+          "confidence": 0.728,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.88
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.75
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0079.jpg",
+          "file_name": "B站_image_0079.jpg",
+          "file_size": 488771,
+          "image_size": [
+            686,
+            310
+          ],
+          "confidence": 0.692,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.91
+            },
+            {
+              "label": "文字",
+              "confidence": 0.81
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "边框",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0080.jpg",
+          "file_name": "B站_image_0080.jpg",
+          "file_size": 265620,
+          "image_size": [
+            705,
+            721
+          ],
+          "confidence": 0.61,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.86
+            },
+            {
+              "label": "文字",
+              "confidence": 0.86
+            },
+            {
+              "label": "图标",
+              "confidence": 0.89
+            },
+            {
+              "label": "背景",
+              "confidence": 0.47
+            },
+            {
+              "label": "边框",
+              "confidence": 0.47
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0081.jpg",
+          "file_name": "B站_image_0081.jpg",
+          "file_size": 269411,
+          "image_size": [
+            1075,
+            709
+          ],
+          "confidence": 0.853,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.83
+            },
+            {
+              "label": "文字",
+              "confidence": 0.74
+            },
+            {
+              "label": "图标",
+              "confidence": 0.8
+            },
+            {
+              "label": "边框",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0082.jpg",
+          "file_name": "B站_image_0082.jpg",
+          "file_size": 453737,
+          "image_size": [
+            680,
+            749
+          ],
+          "confidence": 0.7,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.8
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "边框",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0083.jpg",
+          "file_name": "B站_image_0083.jpg",
+          "file_size": 61154,
+          "image_size": [
+            915,
+            432
+          ],
+          "confidence": 0.863,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.82
+            },
+            {
+              "label": "特效",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0084.jpg",
+          "file_name": "B站_image_0084.jpg",
+          "file_size": 229804,
+          "image_size": [
+            930,
+            377
+          ],
+          "confidence": 0.705,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.85
+            },
+            {
+              "label": "文字",
+              "confidence": 0.67
+            },
+            {
+              "label": "图标",
+              "confidence": 0.85
+            },
+            {
+              "label": "特效",
+              "confidence": 0.62
+            },
+            {
+              "label": "边框",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0085.jpg",
+          "file_name": "B站_image_0085.jpg",
+          "file_size": 371094,
+          "image_size": [
+            1114,
+            567
+          ],
+          "confidence": 0.663,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.92
+            },
+            {
+              "label": "文字",
+              "confidence": 0.72
+            },
+            {
+              "label": "图标",
+              "confidence": 0.84
+            },
+            {
+              "label": "特效",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0086.jpg",
+          "file_name": "B站_image_0086.jpg",
+          "file_size": 364128,
+          "image_size": [
+            765,
+            342
+          ],
+          "confidence": 0.914,
+          "best_match": "B站UP主",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.54
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站UP主"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0087.jpg",
+          "file_name": "B站_image_0087.jpg",
+          "file_size": 216077,
+          "image_size": [
+            846,
+            408
+          ],
+          "confidence": 0.89,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.9
+            },
+            {
+              "label": "文字",
+              "confidence": 0.84
+            },
+            {
+              "label": "图标",
+              "confidence": 0.74
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0088.jpg",
+          "file_name": "B站_image_0088.jpg",
+          "file_size": 322001,
+          "image_size": [
+            760,
+            405
+          ],
+          "confidence": 0.759,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.87
+            },
+            {
+              "label": "文字",
+              "confidence": 0.76
+            },
+            {
+              "label": "图标",
+              "confidence": 0.86
+            },
+            {
+              "label": "背景",
+              "confidence": 0.46
+            },
+            {
+              "label": "特效",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0089.jpg",
+          "file_name": "B站_image_0089.jpg",
+          "file_size": 431676,
+          "image_size": [
+            611,
+            440
+          ],
+          "confidence": 0.833,
+          "best_match": "B站鬼畜",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.61
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "边框",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站鬼畜"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0090.jpg",
+          "file_name": "B站_image_0090.jpg",
+          "file_size": 239013,
+          "image_size": [
+            547,
+            674
+          ],
+          "confidence": 0.745,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.81
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.72
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.52
+            },
+            {
+              "label": "装饰",
+              "confidence": 0.41
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0091.jpg",
+          "file_name": "B站_image_0091.jpg",
+          "file_size": 74025,
+          "image_size": [
+            992,
+            453
+          ],
+          "confidence": 0.907,
+          "best_match": "B站番剧",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.82
+            },
+            {
+              "label": "文字",
+              "confidence": 0.62
+            },
+            {
+              "label": "图标",
+              "confidence": 0.77
+            },
+            {
+              "label": "特效",
+              "confidence": 0.45
+            },
+            {
+              "label": "边框",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站番剧"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0092.jpg",
+          "file_name": "B站_image_0092.jpg",
+          "file_size": 183115,
+          "image_size": [
+            1006,
+            550
+          ],
+          "confidence": 0.864,
+          "best_match": "B站三连",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.94
+            },
+            {
+              "label": "文字",
+              "confidence": 0.71
+            },
+            {
+              "label": "图标",
+              "confidence": 0.87
+            },
+            {
+              "label": "特效",
+              "confidence": 0.4
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站三连"
+        },
+        {
+          "file_path": "/demo/images/B站/image_0093.jpg",
+          "file_name": "B站_image_0093.jpg",
+          "file_size": 458456,
+          "image_size": [
+            543,
+            634
+          ],
+          "confidence": 0.857,
+          "best_match": "B站弹幕",
+          "detected_objects": [
+            {
+              "label": "人物",
+              "confidence": 0.89
+            },
+            {
+              "label": "文字",
+              "confidence": 0.89
+            },
+            {
+              "label": "图标",
+              "confidence": 0.9
+            },
+            {
+              "label": "特效",
+              "confidence": 0.49
+            },
+            {
+              "label": "特效",
+              "confidence": 0.55
+            }
+          ],
+          "classification_reason": "检测到B站特征: B站弹幕"
+        }
+      ]
+    },
+    "unrelated": {
+      "count": 56,
+      "average_confidence": 0.15,
+      "images": [
+        {
+          "file_path": "/demo/images/unrelated/image_0000.jpg",
+          "file_name": "unrelated_image_0000.jpg",
+          "file_size": 196076,
+          "image_size": [
+            720,
+            766
+          ],
+          "confidence": 0.129,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.83
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0001.jpg",
+          "file_name": "unrelated_image_0001.jpg",
+          "file_size": 322791,
+          "image_size": [
+            658,
+            472
+          ],
+          "confidence": 0.172,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0002.jpg",
+          "file_name": "unrelated_image_0002.jpg",
+          "file_size": 72388,
+          "image_size": [
+            834,
+            401
+          ],
+          "confidence": 0.148,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.71
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0003.jpg",
+          "file_name": "unrelated_image_0003.jpg",
+          "file_size": 462226,
+          "image_size": [
+            1197,
+            461
+          ],
+          "confidence": 0.263,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.78
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0004.jpg",
+          "file_name": "unrelated_image_0004.jpg",
+          "file_size": 352448,
+          "image_size": [
+            430,
+            640
+          ],
+          "confidence": 0.214,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0005.jpg",
+          "file_name": "unrelated_image_0005.jpg",
+          "file_size": 225412,
+          "image_size": [
+            695,
+            444
+          ],
+          "confidence": 0.247,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0006.jpg",
+          "file_name": "unrelated_image_0006.jpg",
+          "file_size": 312371,
+          "image_size": [
+            752,
+            369
+          ],
+          "confidence": 0.145,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.77
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0007.jpg",
+          "file_name": "unrelated_image_0007.jpg",
+          "file_size": 490697,
+          "image_size": [
+            432,
+            508
+          ],
+          "confidence": 0.153,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0008.jpg",
+          "file_name": "unrelated_image_0008.jpg",
+          "file_size": 456863,
+          "image_size": [
+            1175,
+            672
+          ],
+          "confidence": 0.064,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0009.jpg",
+          "file_name": "unrelated_image_0009.jpg",
+          "file_size": 291080,
+          "image_size": [
+            711,
+            457
+          ],
+          "confidence": 0.051,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.85
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0010.jpg",
+          "file_name": "unrelated_image_0010.jpg",
+          "file_size": 177347,
+          "image_size": [
+            1052,
+            549
+          ],
+          "confidence": 0.219,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0011.jpg",
+          "file_name": "unrelated_image_0011.jpg",
+          "file_size": 185232,
+          "image_size": [
+            469,
+            745
+          ],
+          "confidence": 0.087,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0012.jpg",
+          "file_name": "unrelated_image_0012.jpg",
+          "file_size": 416358,
+          "image_size": [
+            412,
+            602
+          ],
+          "confidence": 0.112,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0013.jpg",
+          "file_name": "unrelated_image_0013.jpg",
+          "file_size": 200001,
+          "image_size": [
+            674,
+            428
+          ],
+          "confidence": 0.114,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0014.jpg",
+          "file_name": "unrelated_image_0014.jpg",
+          "file_size": 329250,
+          "image_size": [
+            707,
+            671
+          ],
+          "confidence": 0.267,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0015.jpg",
+          "file_name": "unrelated_image_0015.jpg",
+          "file_size": 336793,
+          "image_size": [
+            481,
+            787
+          ],
+          "confidence": 0.276,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.52
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0016.jpg",
+          "file_name": "unrelated_image_0016.jpg",
+          "file_size": 399768,
+          "image_size": [
+            531,
+            492
+          ],
+          "confidence": 0.177,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0017.jpg",
+          "file_name": "unrelated_image_0017.jpg",
+          "file_size": 249027,
+          "image_size": [
+            994,
+            576
+          ],
+          "confidence": 0.225,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0018.jpg",
+          "file_name": "unrelated_image_0018.jpg",
+          "file_size": 433446,
+          "image_size": [
+            820,
+            616
+          ],
+          "confidence": 0.229,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0019.jpg",
+          "file_name": "unrelated_image_0019.jpg",
+          "file_size": 375137,
+          "image_size": [
+            805,
+            520
+          ],
+          "confidence": 0.062,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.79
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0020.jpg",
+          "file_name": "unrelated_image_0020.jpg",
+          "file_size": 52009,
+          "image_size": [
+            996,
+            476
+          ],
+          "confidence": 0.093,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.57
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0021.jpg",
+          "file_name": "unrelated_image_0021.jpg",
+          "file_size": 131611,
+          "image_size": [
+            1082,
+            555
+          ],
+          "confidence": 0.271,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.67
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0022.jpg",
+          "file_name": "unrelated_image_0022.jpg",
+          "file_size": 54321,
+          "image_size": [
+            629,
+            689
+          ],
+          "confidence": 0.165,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.9
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0023.jpg",
+          "file_name": "unrelated_image_0023.jpg",
+          "file_size": 250129,
+          "image_size": [
+            594,
+            486
+          ],
+          "confidence": 0.242,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0024.jpg",
+          "file_name": "unrelated_image_0024.jpg",
+          "file_size": 133681,
+          "image_size": [
+            553,
+            302
+          ],
+          "confidence": 0.105,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0025.jpg",
+          "file_name": "unrelated_image_0025.jpg",
+          "file_size": 266833,
+          "image_size": [
+            440,
+            378
+          ],
+          "confidence": 0.192,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0026.jpg",
+          "file_name": "unrelated_image_0026.jpg",
+          "file_size": 337281,
+          "image_size": [
+            1043,
+            502
+          ],
+          "confidence": 0.085,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.86
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0027.jpg",
+          "file_name": "unrelated_image_0027.jpg",
+          "file_size": 266626,
+          "image_size": [
+            752,
+            716
+          ],
+          "confidence": 0.285,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0028.jpg",
+          "file_name": "unrelated_image_0028.jpg",
+          "file_size": 105248,
+          "image_size": [
+            883,
+            640
+          ],
+          "confidence": 0.227,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0029.jpg",
+          "file_name": "unrelated_image_0029.jpg",
+          "file_size": 488855,
+          "image_size": [
+            427,
+            481
+          ],
+          "confidence": 0.235,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0030.jpg",
+          "file_name": "unrelated_image_0030.jpg",
+          "file_size": 101168,
+          "image_size": [
+            554,
+            516
+          ],
+          "confidence": 0.053,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.8
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0031.jpg",
+          "file_name": "unrelated_image_0031.jpg",
+          "file_size": 76361,
+          "image_size": [
+            1129,
+            338
+          ],
+          "confidence": 0.16,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.69
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0032.jpg",
+          "file_name": "unrelated_image_0032.jpg",
+          "file_size": 199253,
+          "image_size": [
+            937,
+            731
+          ],
+          "confidence": 0.259,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.71
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0033.jpg",
+          "file_name": "unrelated_image_0033.jpg",
+          "file_size": 241554,
+          "image_size": [
+            1039,
+            396
+          ],
+          "confidence": 0.138,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.6
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0034.jpg",
+          "file_name": "unrelated_image_0034.jpg",
+          "file_size": 249098,
+          "image_size": [
+            1065,
+            786
+          ],
+          "confidence": 0.248,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.82
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.51
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0035.jpg",
+          "file_name": "unrelated_image_0035.jpg",
+          "file_size": 108257,
+          "image_size": [
+            1174,
+            646
+          ],
+          "confidence": 0.206,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.7
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0036.jpg",
+          "file_name": "unrelated_image_0036.jpg",
+          "file_size": 276899,
+          "image_size": [
+            887,
+            530
+          ],
+          "confidence": 0.218,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.61
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0037.jpg",
+          "file_name": "unrelated_image_0037.jpg",
+          "file_size": 321817,
+          "image_size": [
+            954,
+            558
+          ],
+          "confidence": 0.121,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.74
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0038.jpg",
+          "file_name": "unrelated_image_0038.jpg",
+          "file_size": 273523,
+          "image_size": [
+            764,
+            448
+          ],
+          "confidence": 0.161,
+          "best_match": "宠物",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为宠物"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0039.jpg",
+          "file_name": "unrelated_image_0039.jpg",
+          "file_size": 90099,
+          "image_size": [
+            916,
+            326
+          ],
+          "confidence": 0.292,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.78
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.75
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0040.jpg",
+          "file_name": "unrelated_image_0040.jpg",
+          "file_size": 184089,
+          "image_size": [
+            796,
+            390
+          ],
+          "confidence": 0.061,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.88
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.73
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0041.jpg",
+          "file_name": "unrelated_image_0041.jpg",
+          "file_size": 260364,
+          "image_size": [
+            504,
+            397
+          ],
+          "confidence": 0.1,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.8
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.66
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0042.jpg",
+          "file_name": "unrelated_image_0042.jpg",
+          "file_size": 51986,
+          "image_size": [
+            977,
+            573
+          ],
+          "confidence": 0.055,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.58
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0043.jpg",
+          "file_name": "unrelated_image_0043.jpg",
+          "file_size": 306157,
+          "image_size": [
+            1094,
+            692
+          ],
+          "confidence": 0.27,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.75
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.56
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0044.jpg",
+          "file_name": "unrelated_image_0044.jpg",
+          "file_size": 469774,
+          "image_size": [
+            930,
+            313
+          ],
+          "confidence": 0.268,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.59
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0045.jpg",
+          "file_name": "unrelated_image_0045.jpg",
+          "file_size": 174522,
+          "image_size": [
+            1119,
+            596
+          ],
+          "confidence": 0.174,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.8
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0046.jpg",
+          "file_name": "unrelated_image_0046.jpg",
+          "file_size": 367964,
+          "image_size": [
+            687,
+            678
+          ],
+          "confidence": 0.124,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.73
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0047.jpg",
+          "file_name": "unrelated_image_0047.jpg",
+          "file_size": 118811,
+          "image_size": [
+            799,
+            431
+          ],
+          "confidence": 0.131,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.64
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0048.jpg",
+          "file_name": "unrelated_image_0048.jpg",
+          "file_size": 433935,
+          "image_size": [
+            612,
+            609
+          ],
+          "confidence": 0.059,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.5
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0049.jpg",
+          "file_name": "unrelated_image_0049.jpg",
+          "file_size": 133200,
+          "image_size": [
+            501,
+            506
+          ],
+          "confidence": 0.174,
+          "best_match": "自拍",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.79
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.68
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为自拍"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0050.jpg",
+          "file_name": "unrelated_image_0050.jpg",
+          "file_size": 255786,
+          "image_size": [
+            1136,
+            361
+          ],
+          "confidence": 0.059,
+          "best_match": "汽车",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.87
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.62
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为汽车"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0051.jpg",
+          "file_name": "unrelated_image_0051.jpg",
+          "file_size": 414396,
+          "image_size": [
+            1147,
+            429
+          ],
+          "confidence": 0.072,
+          "best_match": "动漫",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.81
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为动漫"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0052.jpg",
+          "file_name": "unrelated_image_0052.jpg",
+          "file_size": 400645,
+          "image_size": [
+            412,
+            785
+          ],
+          "confidence": 0.059,
+          "best_match": "建筑",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.84
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.65
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为建筑"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0053.jpg",
+          "file_name": "unrelated_image_0053.jpg",
+          "file_size": 120518,
+          "image_size": [
+            1081,
+            692
+          ],
+          "confidence": 0.106,
+          "best_match": "美食",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.76
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.74
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为美食"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0054.jpg",
+          "file_name": "unrelated_image_0054.jpg",
+          "file_size": 271570,
+          "image_size": [
+            1028,
+            695
+          ],
+          "confidence": 0.271,
+          "best_match": "游戏",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.77
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.53
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为游戏"
+        },
+        {
+          "file_path": "/demo/images/unrelated/image_0055.jpg",
+          "file_name": "unrelated_image_0055.jpg",
+          "file_size": 287343,
+          "image_size": [
+            1007,
+            457
+          ],
+          "confidence": 0.257,
+          "best_match": "风景",
+          "detected_objects": [
+            {
+              "label": "风景元素",
+              "confidence": 0.89
+            },
+            {
+              "label": "自然物体",
+              "confidence": 0.72
+            }
+          ],
+          "classification_reason": "与目标IP特征不匹配，识别为风景"
+        }
+      ]
+    }
+  }
+}

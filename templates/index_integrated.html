@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级图片处理系统 - 去重与IP分类</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .nav-tabs .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+            border-color: #0d6efd;
+        }
+        .tab-content {
+            border: 1px solid #dee2e6;
+            border-top: none;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+        }
+        .progress {
+            height: 25px;
+        }
+        .image-preview {
+            max-width: 200px;
+            max-height: 150px;
+            cursor: pointer;
+        }
+        .group-card {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 15px;
+        }
+        .representative-image {
+            border: 3px solid #0d6efd;
+        }
+        .similar-image {
+            opacity: 0.7;
+        }
+        .similar-image:hover {
+            opacity: 1;
+        }
+        .file-info {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .action-buttons {
+            margin-top: 10px;
+        }
+        .stats-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .feature-card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-4">
+        <!-- 页面标题 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h1 class="text-center text-primary">
+                    <i class="fas fa-images me-2"></i>
+                    高级图片处理系统
+                </h1>
+                <p class="text-center text-muted">集成图片去重与IP表情分类功能</p>
+            </div>
+        </div>
+
+        <!-- 功能导航 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="deduplication-tab" data-bs-toggle="tab" 
+                                data-bs-target="#deduplication" type="button" role="tab">
+                            <i class="fas fa-clone me-2"></i>图片去重
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="classification-tab" data-bs-toggle="tab" 
+                                data-bs-target="#classification" type="button" role="tab">
+                            <i class="fas fa-tags me-2"></i>IP表情分类
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 标签内容 -->
+        <div class="tab-content" id="myTabContent">
+            <!-- 图片去重标签 -->
+            <div class="tab-pane fade show active" id="deduplication" role="tabpanel">
+                <div class="row">
+                    <!-- 控制面板 -->
+                    <div class="col-md-4">
+                        <div class="card feature-card">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0"><i class="fas fa-cog me-2"></i>去重设置</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="targetDir" class="form-label">目标目录</label>
+                                    <input type="text" class="form-control" id="targetDir" 
+                                           placeholder="输入目录路径" value="./stickers_output_20251002_234900">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="similarityThreshold" class="form-label">相似度阈值</label>
+                                    <input type="range" class="form-range" id="similarityThreshold" 
+                                           min="0.5" max="1.0" step="0.05" value="0.75">
+                                    <div class="text-muted" id="thresholdValue">0.75</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="hashSize" class="form-label">哈希大小</label>
+                                    <select class="form-select" id="hashSize">
+                                        <option value="8">8x8 (快速)</option>
+                                        <option value="16">16x16 (标准)</option>
+                                        <option value="32">32x32 (精确)</option>
+                                    </select>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="recursiveScan" checked>
+                                    <label class="form-check-label" for="recursiveScan">
+                                        递归扫描子目录
+                                    </label>
+                                </div>
+                                <button class="btn btn-primary w-100" onclick="startDeduplicationScan()">
+                                    <i class="fas fa-search me-2"></i>开始扫描
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 进度显示 -->
+                        <div class="card mt-3 feature-card">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0"><i class="fas fa-chart-line me-2"></i>处理进度</h6>
+                            </div>
+                            <div class="card-body">
+                                <div id="progressStatus">等待扫描...</div>
+                                <div class="progress mt-2">
+                                    <div id="progressBar" class="progress-bar" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 结果显示 -->
+                    <div class="col-md-8">
+                        <div class="card feature-card">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>扫描结果</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="deduplicationResults">
+                                    <div class="text-center text-muted py-5">
+                                        <i class="fas fa-images fa-3x mb-3"></i>
+                                        <p>等待扫描结果...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IP表情分类标签 -->
+            <div class="tab-pane fade" id="classification" role="tabpanel">
+                <div class="row">
+                    <!-- 控制面板 -->
+                    <div class="col-md-4">
+                        <div class="card feature-card">
+                            <div class="card-header bg-warning text-white">
+                                <h5 class="mb-0"><i class="fas fa-cog me-2"></i>分类设置</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="ipTargetDir" class="form-label">目标目录</label>
+                                    <input type="text" class="form-control" id="ipTargetDir" 
+                                           placeholder="输入目录路径" value="./stickers_output_20251002_234900">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="targetIP" class="form-label">目标IP</label>
+                                    <input type="text" class="form-control" id="targetIP" 
+                                           placeholder="输入IP名称" value="抖音">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="ipSimilarityThreshold" class="form-label">分类阈值</label>
+                                    <input type="range" class="form-range" id="ipSimilarityThreshold" 
+                                           min="0.5" max="1.0" step="0.05" value="0.7">
+                                    <div class="text-muted" id="ipThresholdValue">0.7</div>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="ipRecursiveScan" checked>
+                                    <label class="form-check-label" for="ipRecursiveScan">
+                                        递归扫描子目录
+                                    </label>
+                                </div>
+                                <button class="btn btn-warning w-100" onclick="startIPClassification()">
+                                    <i class="fas fa-tags me-2"></i>开始分类
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- IP分类进度 -->
+                        <div class="card mt-3 feature-card">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0"><i class="fas fa-chart-line me-2"></i>分类进度</h6>
+                            </div>
+                            <div class="card-body">
+                                <div id="ipProgressStatus">等待分类...</div>
+                                <div class="progress mt-2">
+                                    <div id="ipProgressBar" class="progress-bar bg-warning" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分类结果 -->
+                    <div class="col-md-8">
+                        <div class="card feature-card">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0"><i class="fas fa-chart-pie me-2"></i>分类结果</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="classificationResults">
+                                    <div class="text-center text-muted py-5">
+                                        <i class="fas fa-tags fa-3x mb-3"></i>
+                                        <p>等待分类结果...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 统计信息 -->
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="stats-card">
+                    <div class="text-center">
+                        <i class="fas fa-folder-open fa-2x mb-2"></i>
+                        <h4 id="totalImages">0</h4>
+                        <p>总图片数</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stats-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <div class="text-center">
+                        <i class="fas fa-clone fa-2x mb-2"></i>
+                        <h4 id="duplicateGroups">0</h4>
+                        <p>重复组数</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stats-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <div class="text-center">
+                        <i class="fas fa-hdd fa-2x mb-2"></i>
+                        <h4 id="spaceSaved">0 MB</h4>
+                        <p>可节省空间</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stats-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <div class="text-center">
+                        <i class="fas fa-tags fa-2x mb-2"></i>
+                        <h4 id="ipImages">0</h4>
+                        <p>IP相关图片</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap & jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // 阈值滑块更新
+        document.getElementById('similarityThreshold').addEventListener('input', function() {
+            document.getElementById('thresholdValue').textContent = this.value;
+        });
+        
+        document.getElementById('ipSimilarityThreshold').addEventListener('input', function() {
+            document.getElementById('ipThresholdValue').textContent = this.value;
+        });
+
+        // 图片去重功能
+        async function startDeduplicationScan() {
+            const targetDir = document.getElementById('targetDir').value;
+            const similarityThreshold = parseFloat(document.getElementById('similarityThreshold').value);
+            const hashSize = parseInt(document.getElementById('hashSize').value);
+            const recursive = document.getElementById('recursiveScan').checked;
+
+            if (!targetDir) {
+                alert('请输入目标目录路径');
+                return;
+            }
+
+            // 更新进度显示
+            updateProgress('正在扫描目录...', 10);
+
+            try {
+                const response = await fetch('/api/scan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        target_dir: targetDir,
+                        similarity_threshold: similarityThreshold,
+                        hash_size: hashSize,
+                        recursive: recursive
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    updateProgress('扫描完成', 100);
+                    displayDeduplicationResults(result);
+                } else {
+                    updateProgress('扫描失败: ' + result.error, 0);
+                    alert('扫描失败: ' + result.error);
+                }
+            } catch (error) {
+                updateProgress('网络错误: ' + error.message, 0);
+                alert('网络错误: ' + error.message);
+            }
+        }
+
+        // IP分类功能
+        async function startIPClassification() {
+            const targetDir = document.getElementById('ipTargetDir').value;
+            const targetIP = document.getElementById('targetIP').value;
+            const similarityThreshold = parseFloat(document.getElementById('ipSimilarityThreshold').value);
+            const recursive = document.getElementById('ipRecursiveScan').checked;
+
+            if (!targetDir) {
+                alert('请输入目标目录路径');
+                return;
+            }
+
+            if (!targetIP) {
+                alert('请输入目标IP名称');
+                return;
+            }
+
+            // 更新进度显示
+            updateIPProgress('正在分类图片...', 10);
+
+            try {
+                const response = await fetch('/api/ip-classification/scan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        target_dir: targetDir,
+                        target_ip: targetIP,
+                        similarity_threshold: similarityThreshold,
+                        recursive: recursive
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    updateIPProgress('分类完成', 100);
+                    displayClassificationResults(result);
+                } else {
+                    updateIPProgress('分类失败: ' + result.error, 0);
+                    alert('分类失败: ' + result.error);
+                }
+            } catch (error) {
+                updateIPProgress('网络错误: ' + error.message, 0);
+                alert('网络错误: ' + error.message);
+            }
+        }
+
+        // 更新进度显示
+        function updateProgress(status, progress) {
+            document.getElementById('progressStatus').textContent = status;
+            document.getElementById('progressBar').style.width = progress + '%';
+            document.getElementById('progressBar').textContent = progress + '%';
+        }
+
+        function updateIPProgress(status, progress) {
+            document.getElementById('ipProgressStatus').textContent = status;
+            document.getElementById('ipProgressBar').style.width = progress + '%';
+            document.getElementById('ipProgressBar').textContent = progress + '%';
+        }
+
+        // 显示去重结果
+        function displayDeduplicationResults(result) {
+            const resultsDiv = document.getElementById('deduplicationResults');
+            const report = result.report;
+            const groups = result.groups;
+
+            let html = `
+                <div class="alert alert-success">
+                    <h6><i class="fas fa-check-circle me-2"></i>扫描完成</h6>
+                    <p>发现 ${report.summary.total_groups} 个重复组，共 ${report.summary.total_images} 张图片</p>
+                    <p>预计可节省空间: ${(report.summary.estimated_space_saved / 1024 / 1024).toFixed(2)} MB</p>
+                </div>
+            `;
+
+            // 更新统计信息
+            document.getElementById('totalImages').textContent = report.summary.total_images;
+            document.getElementById('duplicateGroups').textContent = report.summary.total_groups;
+            document.getElementById('spaceSaved').textContent = (report.summary.estimated_space_saved / 1024 / 1024).toFixed(1) + ' MB';
+
+            // 显示重复组
+            Object.keys(groups).forEach(groupKey => {
+                const images = groups[groupKey];
+                html += `
+                    <div class="group-card">
+                        <h6>重复组 (${images.length} 张图片)</h6>
+                        <div class="d-flex flex-wrap gap-2">
+                `;
+
+                images.forEach((img, index) => {
+                    html += `
+                        <div class="text-center">
+                            <img src="/api/image/${encodeURIComponent(img.path)}" 
+                                 class="image-preview ${index === 0 ? 'representative-image' : 'similar-image'}"
+                                 alt="${img.path}" 
+                                 onclick="previewImage('${encodeURIComponent(img.path)}')">
+                            <div class="file-info">
+                                ${img.file_size > 1024 ? (img.file_size/1024).toFixed(1) + 'KB' : img.file_size + 'B'}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn btn-danger btn-sm" onclick="deleteGroup('${groupKey}')">
+                                <i class="fas fa-trash me-1"></i>删除重复项
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            resultsDiv.innerHTML = html;
+        }
+
+        // 显示分类结果
+        function displayClassificationResults(result) {
+            const resultsDiv = document.getElementById('classificationResults');
+            const report = result.report;
+
+            let html = `
+                <div class="alert alert-success">
+                    <h6><i class="fas fa-check-circle me-2"></i>分类完成</h6>
+                    <p>目标IP "${report.summary.target_ip}" 相关图片: ${report.summary.target_ip_count} 张</p>
+                    <p>无关图片: ${report.summary.unrelated_count} 张</p>
+                    <p>总图片数: ${report.summary.total_images}</p>
+                </div>
+            `;
+
+            // 更新统计信息
+            document.getElementById('ipImages').textContent = report.summary.target_ip_count;
+
+            // 显示分类结果
+            Object.keys(report.detailed_results).forEach(category => {
+                const categoryData = report.detailed_results[category];
+                html += `
+                    <div class="group-card">
+                        <h6 class="text-capitalize">${category} (${categoryData.count} 张图片)</h6>
+                        <div class="d-flex flex-wrap gap-2">
+                `;
+
+                categoryData.images.slice(0, 10).forEach(img => {
+                    html += `
+                        <div class="text-center">
+                            <img src="/api/ip-classification/image/${encodeURIComponent(img.file_path)}" 
+                                 class="image-preview"
+                                 alt="${img.file_name}"
+                                 onclick="previewImage('${encodeURIComponent(img.file_path)}')">
+                            <div class="file-info">
+                                置信度: ${(img.confidence * 100).toFixed(1)}%
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            resultsDiv.innerHTML = html;
+        }
+
+        // 图片预览功能
+        function previewImage(imagePath) {
+            const modalHtml = `
+                <div class="modal fade" id="imageModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">图片预览</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="/api/image/${imagePath}" class="img-fluid" alt="预览图片">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // 移除现有模态框
+            const existingModal = document.getElementById('imageModal');
+            if (existingModal) {
+                existingModal.remove();
+            }
+
+            // 添加新模态框并显示
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+            new bootstrap.Modal(document.getElementById('imageModal')).show();
+        }
+
+        // 删除重复组
+        async function deleteGroup(groupKey) {
+            if (!confirm('确定要删除这个重复组中的重复图片吗？')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/delete/selected', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        group_keys: [groupKey]
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    alert('删除成功');
+                    // 刷新页面显示
+                    startDeduplicationScan();
+                } else {
+                    alert('删除失败: ' + result.error);
+                }
+            } catch (error) {
+                alert('网络错误: ' + error.message);
+            }
+        }
+
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 检查服务状态
+            checkServiceStatus();
+        });
+
+        // 检查服务状态
+        async function checkServiceStatus() {
+            try {
+                const response = await fetch('/health');
+                const status = await response.json();
+                console.log('服务状态:', status);
+            } catch (error) {
+                console.error('服务状态检查失败:', error);
+            }
+        }
+    </script>
+</body>
+</html>

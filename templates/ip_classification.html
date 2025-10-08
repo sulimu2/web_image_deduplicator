@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能IP表情图片分类系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1><i class="fas fa-robot"></i> 智能IP表情图片分类系统</h1>
+            <p class="subtitle">基于深度学习的智能图片分类与整理工具</p>
+        </header>
+
+        <!-- 控制面板 -->
+        <div class="control-panel">
+            <div class="scan-section">
+                <h2><i class="fas fa-cogs"></i> 分类设置</h2>
+                
+                <div class="form-group">
+                    <label for="targetDir">目标目录:</label>
+                    <div class="directory-input-group">
+                        <input type="text" id="targetDir" placeholder="点击浏览按钮选择目录或直接输入路径">
+                        <button class="btn btn-secondary" onclick="browseDirectory()">
+                            <i class="fas fa-folder"></i> 浏览目录
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="settings-grid">
+                    <div class="form-group">
+                        <label for="targetIp">目标IP名称:</label>
+                        <input type="text" id="targetIp" placeholder="例如: 抖音、微信、自定义IP" value="抖音">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="ipSimilarityThreshold">相似度阈值:</label>
+                        <input type="range" id="ipSimilarityThreshold" min="0.1" max="1.0" step="0.05" value="0.7">
+                        <span id="ipThresholdValue">0.70</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="recursiveScan" checked>
+                            递归扫描子目录
+                        </label>
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary" onclick="startIPClassification()" id="classificationBtn">
+                    <i class="fas fa-brain"></i> 开始智能分类
+                </button>
+            </div>
+        </div>
+
+        <!-- 进度显示 -->
+        <div class="progress-section" id="progressSection" style="display: none;">
+            <h3><i class="fas fa-spinner fa-spin"></i> 分类进度</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText">准备开始分类...</div>
+        </div>
+
+        <!-- 分类结果 -->
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <div class="results-header">
+                <h2><i class="fas fa-chart-pie"></i> 分类结果统计</h2>
+                <div class="summary-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="targetIpCount">0</span>
+                        <span class="stat-label">目标IP图片</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="unrelatedCount">0</span>
+                        <span class="stat-label">无关图片</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="totalImages">0</span>
+                        <span class="stat-label">图片总数</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 分类详情 -->
+            <div class="classification-details">
+                <div class="category-section" id="targetIpSection">
+                    <h3><i class="fas fa-star"></i> 目标IP相关图片</h3>
+                    <div class="category-images" id="targetIpImages">
+                        <!-- 目标IP图片将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+                
+                <div class="category-section" id="unrelatedSection">
+                    <h3><i class="fas fa-times-circle"></i> 无关图片</h3>
+                    <div class="category-images" id="unrelatedImages">
+                        <!-- 无关图片将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+                
+                <div class="category-section" id="otherSection">
+                    <h3><i class="fas fa-question-circle"></i> 其他分类</h3>
+                    <div class="other-categories" id="otherCategories">
+                        <!-- 其他分类将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 批量操作 -->
+            <div class="batch-actions">
+                <div class="action-buttons">
+                    <button class="btn btn-success" onclick="organizeResults()">
+                        <i class="fas fa-folder"></i> 整理分类结果
+                    </button>
+                    <button class="btn btn-info" onclick="exportReport()">
+                        <i class="fas fa-download"></i> 导出分类报告
+                    </button>
+                    <button class="btn btn-warning" onclick="manualAdjust()">
+                        <i class="fas fa-edit"></i> 手动调整分类
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 图片详情模态框 -->
+        <div class="modal" id="imageDetailModal">
+            <div class="modal-content large-modal">
+                <div class="modal-header">
+                    <h3>图片分类详情</h3>
+                    <button class="close-btn" onclick="closeImageModal()">&times;</button>
+                </div>
+                <div class="modal-body" id="imageDetailBody">
+                    <!-- 内容将通过JavaScript动态填充 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 整理配置模态框 -->
+        <div class="modal" id="organizeModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>整理分类结果</h3>
+                    <button class="close-btn" onclick="closeOrganizeModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="organizeBaseDir">基础目录:</label>
+                        <input type="text" id="organizeBaseDir" value="./ip_classification_results">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="dryRunMode" checked>
+                            模拟运行（不实际移动文件）
+                        </label>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn btn-primary" onclick="confirmOrganize()">确认整理</button>
+                        <button class="btn btn-secondary" onclick="closeOrganizeModal()">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 消息提示 -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/ip_classification.js') }}"></script>
+</body>
+</html>

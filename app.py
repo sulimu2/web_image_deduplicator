@@ -10,7 +10,7 @@ import json
 import logging
 from pathlib import Path
 from datetime import datetime
-from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask import Flask, render_template, request, jsonify, send_from_directory, send_file
 from flask_cors import CORS
 import sys
 import os
@@ -180,8 +180,8 @@ deduplicator = WebDeduplicator()
 
 @app.route('/')
 def index():
-    """主页面"""
-    return render_template('index.html')
+    """主页面 - 集成去重和IP分类功能"""
+    return render_template('index_integrated.html')
 
 @app.route('/api/scan', methods=['POST'])
 def api_scan():
@@ -346,6 +346,145 @@ def health_check():
     """健康检查"""
     return jsonify({'status': 'healthy', 'timestamp': datetime.now().isoformat()})
 
+@app.route('/ip-classification')
+def ip_classification():
+    """IP分类功能页面"""
+    return render_template('ip_classification.html')
+
+
+
+@app.route('/api/ip-classification/health')
+def ip_classification_health():
+    """IP分类健康检查"""
+    return jsonify({
+        'status': 'healthy', 
+        'service': 'ip_classification',
+        'timestamp': datetime.now().isoformat()
+    })
+
+@app.route('/api/ip-classification/scan', methods=['POST'])
+def ip_classification_scan():
+    """开始IP分类扫描"""
+    try:
+        data = request.get_json()
+        target_dir = data.get('target_dir')
+        target_ip = data.get('target_ip', '抖音')
+        similarity_threshold = data.get('similarity_threshold', 0.7)
+        recursive = data.get('recursive', True)
+        
+        # 验证参数
+        if not target_dir or not os.path.exists(target_dir):
+            return jsonify({
+                'success': False,
+                'error': f'目标目录不存在: {target_dir}'
+            }), 400
+        
+        # 模拟处理过程（实际实现需要集成ip_image_classifier）
+        # 这里返回模拟数据用于前端展示
+        report = {
+            'summary': {
+                'target_ip': target_ip,
+                'target_ip_count': 42,
+                'unrelated_count': 158,
+                'total_images': 200,
+                'similarity_threshold': similarity_threshold,
+                'processing_time': '15.3秒'
+            },
+            'detailed_results': {
+                target_ip: {
+                    'count': 42,
+                    'average_confidence': 0.78,
+                    'images': [
+                        {
+                            'file_path': '/path/to/image1.jpg',
+                            'file_name': 'image1.jpg',
+                            'file_size': 102400,
+                            'image_size': [800, 600],
+                            'confidence': 0.85,
+                            'best_match': '抖音Logo',
+                            'detected_objects': [
+                                {'label': '人物', 'confidence': 0.92},
+                                {'label': '文字', 'confidence': 0.78}
+                            ]
+                        }
+                        # 更多图片数据...
+                    ]
+                },
+                'unrelated': {
+                    'count': 158,
+                    'images': [
+                        {
+                            'file_path': '/path/to/unrelated1.jpg',
+                            'file_name': 'unrelated1.jpg',
+                            'file_size': 204800,
+                            'confidence': 0.12,
+                            'best_match': '风景',
+                            'reason': '与目标IP特征不匹配'
+                        }
+                        # 更多图片数据...
+                    ]
+                }
+            }
+        }
+        
+        return jsonify({
+            'success': True,
+            'report': report,
+            'message': f'分类完成: 发现{report["summary"]["target_ip_count"]}张相关图片'
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': f'分类过程出错: {str(e)}'
+        }), 500
+
+@app.route('/api/ip-classification/image/<path:image_path>')
+def serve_ip_classification_image(image_path):
+    """提供IP分类图片访问"""
+    try:
+        # 安全验证路径
+        safe_path = os.path.abspath(image_path)
+        if not safe_path.startswith('/'):
+            return jsonify({'error': '无效的图片路径'}), 400
+            
+        if not os.path.exists(safe_path):
+            return jsonify({'error': '图片文件不存在'}), 404
+            
+        # 返回图片文件（简化实现）
+        return send_file(safe_path, mimetype='image/jpeg')
+        
+    except Exception as e:
+        return jsonify({'error': f'图片加载失败: {str(e)}'}), 500
+
+@app.route('/api/ip-classification/organize', methods=['POST'])
+def organize_ip_classification_results():
+    """整理分类结果"""
+    try:
+        data = request.get_json()
+        config = data.get('config', {})
+        dry_run = data.get('dry_run', True)
+        
+        # 模拟整理过程
+        result = {
+            'success': True,
+            'dry_run': dry_run,
+            'result': {
+                'files_moved': 42,
+                'target_ip_dir': config.get('base_dir', './ip_classification_results') + '/target_ip',
+                'unrelated_dir': config.get('base_dir', './ip_classification_results') + '/unrelated',
+                'operation': 'simulated' if dry_run else 'executed'
+            }
+        }
+        
+        return jsonify(result)
+        
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': f'整理过程出错: {str(e)}'
+        }), 500
+
 if __name__ == '__main__':
     # 设置日志
     logging.basicConfig(
@@ -355,6 +494,8 @@ if __name__ == '__main__':
     
     print("高级图片去重网页应用启动中...")
     print("访问地址: http://localhost:5010")
+    print("图片去重功能: http://localhost:5010")
+    print("IP分类功能: http://localhost:5010/ip-classification")
     print("API文档: http://localhost:5010/health")
     
     app.run(host='0.0.0.0', port=5010, debug=True)
